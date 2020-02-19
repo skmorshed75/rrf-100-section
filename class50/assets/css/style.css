@@ -1,0 +1,197 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html, body, .full-height {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	color: #888888;
+	line-height: 1.8;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	color: #666666;
+	line-height: 1.8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 700;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	transition: .3s;
+}
+
+a:hover {
+
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+.carousel-bg1 {
+	background-image: url(../img/1.jpg);
+}
+.carousel-bg2 {
+	background-image: url(../img/2.jpg);
+}
+.carousel-bg3 {
+	background-image: url(../img/3.jpg);
+}
+.carousel-bg4 {
+	background-image: url(../img/4.jpg);
+}
+.carousel-bg5 {
+	background-image: url(../img/5.jpg);
+}
+.carousel-bg6 {
+	background-image: url(../img/6.jpg);
+}
+.carousel-bg7 {
+	background-image: url(../img/7.jpg);
+}
+.carousel-bg8 {
+	background-image: url(../img/8.jpg);
+}
+
+.single-carousel {
+	background-size: cover;
+	background-position: center center;
+	background-color: #ddd;
+}
+
+
+.single-carousel {
+/*    width: 350px;*/
+	width: 100%;
+    height: 350px;
+/*    float: left;*/
+    border-radius: 9px;
+    position: relative;
+    z-index: 1;
+    color: #fff;
+	overflow: hidden;
+}
+.single-carousel:before {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    content: "";
+    opacity: .5;
+    z-index: -1;
+}
+
+
+.carousel-text {
+    position: absolute;
+    left: 20%;
+    bottom: 50px;
+    width: 70%;
+}
+.carousel-text h3 {
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.carousel-text p {
+    font-size: 16px;
+    font-weight: 300;
+}
+.btn-round {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 20px;
+    /*! text-transform: uppercase; */
+    font-size: 16px;
+    font-weight: 700;
+}
+.section-title {
+    text-align: center;
+    margin-bottom: 50px;
+}
+.section-title h1 {
+    font-weight: 400;
+    color: #333;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.section-title p {
+    font-size: 23px;
+}
+.section-title span {
+    color: #FC103C;
+}
+
+
+.listing-carousel .owl-dots div {
+    width: 15px;
+    height: 15px;
+    border: 1px solid #BFBFBF;
+    border-radius: 50%;
+    margin: 5px;
+    display: inline-block;
+    margin-top: 30px;
+}
+.listing-carousel .owl-dots {
+    text-align: center;
+}
+.listing-carousel .owl-dot.active {
+    background: #BFBFBF;
+}
+
+.owl-carousel .owl-stage-outer {
+    overflow: inherit;
+}
+
+.listing-carousel {
+    position: relative;
+}
+
+.listing-carousel:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    content: "";
+    top: 0;
+    left: -100%;
+    z-index: 9;
+    opacity: .4;
+}
+
+
+.listing-carousel:after {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    content: "";
+    top: 0;
+    right: -100%;
+    z-index: 9;
+    opacity: .5;
+}

@@ -1,0 +1,53 @@
+@media screen and (max-width:760px){
+	
+.logo, .main-menu {
+	line-height: 50px;
+	text-align: center;
+}
+.main-menu {
+	float: none;
+}	
+
+.main-menu ul li a {
+	padding: 10px 20px;
+}
+
+.btn-comment {
+	margin-bottom: 30px;
+}
+	
+}
+
+
+@media screen and (max-width:480px){
+
+.blog-content h2 {
+	font-size: 20px;
+}	
+	
+.logo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+	
+.logo, .main-menu {
+	line-height: 20px;
+}	
+
+.main-menu ul li a {
+	padding: 10px 15px;
+}	
+.slide-bg {
+	height: 200px;
+}
+	
+.newsletter h2 {
+    font-size: 22px;
+ 
+}
+
+.form-newsletter {
+    width: auto;
+}	
+	
+}

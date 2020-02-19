@@ -1,0 +1,173 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #AEAEAE;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+	outline: 0;
+	color: #7e8287;	
+}
+
+a:hover {
+	opacity: .7;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+
+/*...............................................................................................................
+CSS FOR SECTION TITLE/HEADING, SECTION PADDING START
+...............................................................................................................*/
+
+.section-padding {
+	padding: 50px 0;
+}
+
+.section-title {	
+    padding: 0 0 80px 0;
+    color: #999999;
+    font-size: 17px;	
+}
+
+.section-title:before {
+    width: 60px;
+    height: 2px;
+    background: #FF8F17;
+    position: absolute;
+    top: 55px;
+    left: calc(50% - 30px);
+    content: "";
+}
+
+.section-title:after {
+    position: absolute;
+    top: 55px;
+    width: 20px;
+    height: 2px;
+    background: #232323;
+    content: "";
+    left: calc(50% - 10px);
+}
+
+.section-title h2{
+	color: #242424;
+	font-size: 30px;
+	font-weight: 800;
+	margin-bottom: 40px;
+}
+
+/*...............................................................................................................
+	CSS FOR SECTION TITLE/HEADING, SECTION PADDING END
+...............................................................................................................*/
+
+
+/*...............................................................................................................
+	CSS FOR NEWS AREA START
+...............................................................................................................*/
+
+.news-bg {
+    height: 200px;
+    background-size: cover;
+    background-position: center center;
+    background-color: #ddd;
+    border: 1px solid #FD9019;
+}
+
+.news-bg1 {
+    background-image: url(../img/news-bg1.jpg);
+}
+.news-bg2 {
+    background-image: url(../img/news-bg2.jpg);
+}
+.news-bg3 {
+    background-image: url(../img/news-bg3.jpg);
+}
+
+.blog-meta i {
+    color: #FF9017;
+    padding-right: 9px;
+}
+
+.news-blog {
+    border: 1px solid #E9E9E9;
+    padding: 25px;
+}
+
+p.blog-meta {
+    font-size: 14px;
+}
+
+p.blog-meta a {
+    padding-right: 17px;
+}
+
+.single-news-blog:hover .news-blog {
+    border: 1px solid #FF9017;
+}
+.news-blog h3 {
+    font-size: 19px;
+    color: #1D1D1D;
+    font-weight: 800;
+}
+
+.news-blog h6 {
+    font-size: 15px;
+    color: #1D1D1C;
+    line-height: 27px;
+}
+
+a.read-more-btn, .news-blog {
+	transition: .5s
+}
+
+a.read-more-btn {
+    background: #FF8F17;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    display: inline-block;
+    border-radius: 5px;	
+}
+
+a.read-more-btn:hover {
+    background: #222222;
+    color: #fff;
+	opacity: 1;
+}
+
+a.read-more-btn.single-news-btn {
+    margin-top: 10px;
+}
+/*...............................................................................................................
+	CSS FOR NEWS AREA END
+...............................................................................................................*/

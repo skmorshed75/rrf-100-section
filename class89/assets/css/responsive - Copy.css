@@ -1,0 +1,135 @@
+/*
+Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap
+*/
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	
+	
+}
+
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.slider-table-cell h1 {color: gray;}
+	.slicknav_menu {display: block;}
+	.is-sticky .main-header-area, .main-menu-area, .header-top-area {display: none;}
+
+}
+
+/*Medium devices (tablets, 768px and up) - MD*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.slider-table-cell h1 {color: gold}
+	.slicknav_menu {display: none;}
+.slider-table-cell h1 {
+	font-size: 50px;
+}	
+	
+.header-top-area, .header-top-area .text-right {
+	text-align: center!important;
+}	
+.header-top-area {
+/*    text-align: center!important;*/
+}
+	
+.logo {
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#navbar-example {
+	text-align: center;
+	float: none;
+}	
+
+#callto-action-area .btn-square.btn-cta {
+	float: none;
+	text-align: center;
+	width: 70%;
+	margin: 0 auto;
+}
+	
+.main-header-area {
+    overflow: hidden;
+    position: relative;
+}
+.sticky-area {
+    position: relative;
+}
+.smooth-menu a {
+}
+.main-menu ul li a {
+    padding: 5px 5px;
+}
+.main-menu {
+    /*! margin: 0 auto; */
+    /*! text-align: center; */
+    /*! position: relative; */
+}
+.main-menu-area {
+	float: none;
+}
+.main-header-area {
+    background: #fff;
+}
+.heru-area {
+    margin-top: 0;
+}
+#undefined-sticky-wrapper {
+    height: auto !important;
+}	
+.sticky-area {
+}
+.btn-square.btn-cta {
+    float: none;
+}
+a.btn-square.btn-cta {
+    width: auto;
+    display: inline-block;
+    float: left;
+    display: block;
+}	
+.single-team {
+	margin-bottom: 30px;
+}	
+.sticky-wrapper {
+    height: auto;
+}	
+.is-sticky .sticky-area .main-header-area {
+    margin-top: -84px;
+}	
+.single-carousel div {
+    height: 500px;
+}
+	
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	.slider-table-cell h1 {color:blue}
+	.callto-action-area {
+		font-size: 17px;
+		font-weight: 400;
+}
+	.team-content h5 {
+	font-size: 17px;
+}
+	.team-content p {
+	font-size: 12px;
+}
+	.single-team .team-content span.social-list i.fa {
+	margin: 0px;
+}
+	
+
+
+}
+
+/*Extra large devices (large desktops, 1200px and up) - LG */
+@media (min-width: 1200px) {
+	.slider-table-cell h1 {color: red}
+	
+	
+}

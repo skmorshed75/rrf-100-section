@@ -1,0 +1,166 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700|Tangerine:400,700');
+
+html, body, .full-height {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	color: #333;
+	line-height: 1.8;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 300;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	transition: .3s;
+	
+}
+
+a:hover {
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+/*Feature Area*/
+
+.section-padding {
+	padding: 50px 0 100px;	
+}
+
+.section-title {
+    text-align: center;
+    padding: 30px 0;
+}
+.section-title h1 {
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 700;
+}
+.section-title p {
+    font-size: 15px;
+}
+.about-img {
+    /*! max-width: 70%; */
+    text-align: right;
+}
+.about-img img {
+    height: 500px;
+    /*! float: right; */
+    /*! text-align: right; */
+    width: 70%;
+    /*! text-align: right; */
+	border: 3px solid;
+	padding: 5px;
+}
+.about-content {
+    /*! text-align: right; */
+    margin-bottom: 50px;
+}
+.about-text {
+	border: 6px solid #ddd;
+	padding: 40px 40px 40px 20px;
+	width: 80%;
+	position: relative;
+	z-index: 1;
+	/* display: table; */
+	/* height: 500px; */
+	margin-top: -150px;
+	background: #fff;
+}
+.social-icon a {
+    font-size: 16px;
+    width: 40px;
+    height: 40px;
+    /*! border: 1px solid #ddd; */
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    display: inline-block;
+    background-color: #EFEFEF;
+    margin: 5px 0;
+    height: 100%;
+}
+.social-icon-wrap {
+	position: absolute;
+	right: -24px;
+	width: 40px;
+	display: table;
+	height: 100%;
+	top: 0;
+}
+
+.social-icon {
+	display: table-cell;
+	vertical-align: middle;
+	/* height: 100%; */
+}
+
+
+.about-text h2 {
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+.about-content.about-right {
+    /*! text-align: left; */
+    /*! float: left; */
+}
+.about-content.about-right .about-img {
+    text-align: left;
+}
+.about-right .about-text {
+    float: right;
+}
+.about-right .social-icon-wrap {
+    right: auto;
+    left: -24px;
+}
+.about-right .about-text {
+    padding-right: 20px;
+    padding-left: 40px;
+}
+
+.social-icon a:first-child {
+    color: #201E83;
+}
+.social-icon a:nth-child(2) {
+    color: #03B2FF;
+}
+.social-icon a:nth-child(3) {
+    color: #F5756D;
+}
+.social-icon a:last-child {
+    color: #4375CE;
+}
+.social-icon a:hover {
+    background: #00AEFF;
+    color: #fff;
+}

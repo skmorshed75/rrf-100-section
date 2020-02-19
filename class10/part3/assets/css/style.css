@@ -1,0 +1,327 @@
+/*
+RRF 100+ SECTION DEVELOPMENT
+CLASS # 10-3
+REPORT SUBMISSION DT : 30/10/2017
+SUBMITTED BY : skmorshed75@gmail.com
+*/
+
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+/*CODE BOLD / LIGHT FONTS*/
+@font-face {
+  font-family: 'CodeBold';
+  src: url('../fonts/Code-Bold.eot');
+  src: url('../fonts/Code-Bold.eot') format('embedded-opentype'), url('../fonts/Code-Bold.woff') format('woff'), url('../fonts/Code-Bold.woff') format('woff'), url('../fonts/Code-Bold.ttf') format('truetype'), url('../fonts/Code-Bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CodeLight';
+  src: url('../fonts/Code-Light.eot');
+  src: url('../fonts/Code-Light.eot') format('embedded-opentype'), url('../fonts/Code-Light.woff') format('woff'), url('../fonts/Code-Light.woff') format('woff'), url('../fonts/Code-Light.ttf') format('truetype'), url('../fonts/Code-Light.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Karla', sans-serif;
+	font-size: 15px;
+	color: #AEAEAE;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	color: #333;
+	font-weight: 700;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+	outline: 0;
+	color: #7e8287;	
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+
+
+
+/*...............................................................................................................
+	CSS FOR SECTION TITLE/HEADING, SECTION PADDING START
+...............................................................................................................*/
+
+.section-padding {
+	padding: 0px 0;
+}
+
+.section-title {	
+    margin-bottom: 60px;
+	position: relative;
+}
+
+.section-title h2 {	
+    color: #333;
+    font-size: 30px;
+	font-weight: 900;
+	text-transform: none;
+	margin-bottom: 10px;
+}
+
+
+/*...............................................................................................................
+	CSS FOR SECTION TITLE/HEADING, SECTION PADDING END
+...............................................................................................................*/
+
+
+/*...............................................................................................................
+	CSS FOR PRODUCTS AREA START
+...............................................................................................................*/
+.header-area {
+	padding-top: 20px;
+}
+
+.product-bg1 {
+	background-image: url("../img/product-bg1.png");
+}
+.product-bg2 {
+	background-image: url("../img/product-bg2.png");
+}
+.product-bg3 {
+	background-image: url("../img/product-bg3.png");
+}
+.product-bg4 {
+	background-image: url("../img/product-bg4.png");
+}
+.product-bg5 {
+	background-image: url("../img/product-bg5.png");
+}
+.product-bg6 {
+	background-image: url("../img/product-bg6.png");
+}
+.product-bg7 {
+	background-image: url("../img/product-bg7.png");
+}
+.product-bg8 {
+	background-image: url("../img/product-bg8.png");
+}
+.product-bg9 {
+	background-image: url("../img/product-bg9.png");
+}
+.product-bg10 {
+	background-image: url("../img/product-bg10.png");
+}
+
+.menu-triger span {
+    width: 50px;
+    background: #E84F88;
+    height: 2px;
+    /* color: red; */
+    /* position: absolute; */
+    display: block;
+    /* float: left; */
+    margin-bottom: 10px;
+}
+
+.menu-triger .bar-small {
+    width: 25px;
+}
+
+.menu-triger .bar-medium {
+    width: 35px;
+}
+
+.main-menu ul {
+    display: inline-block;
+    /* float: left; */
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding-right: 30px;
+}
+
+.main-menu ul li a {
+    color: #5b3f61;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.menu-right {
+    float: right;
+}
+
+.menu-right a {
+    display: inline-block;
+    color: #5b3f61;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.menu-right a i.fa {
+    font-size: 22px;
+    padding-left: 20px;
+}
+
+.menu-right img {
+    padding-left: 20px;
+}
+
+.hero-area {
+    background-color: #F2E5E1;
+}
+
+.menu-right a i.fa {
+    position: relative;
+    top: 3px;
+}
+
+.menu-right a img {
+	top: -5px;
+	position: relative;
+}
+
+.main-menu {
+    padding-top: 5px;
+}
+
+.menu-right a i.fa {
+    position: relative;
+    top: 3px;
+}
+
+.menu-right a img {top: -5px;position: relative;}
+
+.main-menu {
+    padding-top: 5px;
+}
+
+.slide-tablecell p {
+	font-family: 'CodeLight', sans-serif;
+    font-size: 120px;
+    color: #e84f88;
+    line-height: 85px;
+    padding-left: 95px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.slide-tablecell p strong i{
+	font-family: 'CodeBold', sans-serif;
+	font-weight: 400;
+}
+
+.slide-text-table {
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+
+.slide-tablecell {
+    width: 100%;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+	position: relative;
+}
+
+.single-slide-item img {
+	width: 600px;
+	height: 568px;
+    left: 50%;
+    position: absolute;
+    margin-left: -300px;
+	bottom: 15px;
+}
+
+.slide-tablecell p.text-2 {
+    color: #6DB0C6;
+}
+
+.slider-area {
+    height: 568px;
+}
+
+.slider-area div {
+    height: 568px;
+}
+
+.big-menu ul li {
+    overflow: hidden;
+    float: left;
+    width: 30%;
+	text-align: center;
+	padding-top: 120px;
+	padding-bottom: 20px;
+	
+}
+
+.big-menu ul li:nth-child(2) a {
+    font-family: CodeBold, sans-serif;
+    color: #E84F88;
+}
+.big-menu ul li:nth-child(1) {
+    background-color: #ECF3E8;
+	text-align: right;
+    padding-right: 50px;
+}
+.big-menu ul li:nth-child(2) {
+    background-color: #F1E5E5;
+}
+.big-menu ul li:nth-child(3) {
+    background-color: #F6F3E6;
+}
+.big-menu ul li:nth-child(4) {
+    background-color: #ECF4F5;
+    text-align: left;
+    padding-left: 50px;
+}
+
+.big-menu ul li a {
+	color: #5b3f61;
+	font-family: CodeLight,'sans-serif';
+    text-transform: uppercase;
+    font-size: 50px;
+    display: block;	
+	
+}
+
+.big-menu-area {
+    margin-top: -32px;
+}
+
+.big-menu ul li:nth-child(2), .big-menu ul li:nth-child(3) {
+    width: 20%;
+}
+
+.big-menu ul li:nth-child(1), .big-menu ul li:nth-child(4) {
+}
+/*...............................................................................................................
+	CSS FOR PRODUCTS AREA END
+...............................................................................................................*/

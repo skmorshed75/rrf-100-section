@@ -1,0 +1,173 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #2B2B2B;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	color: #2B2B2B;
+
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+	outline: 0;
+}
+
+a:hover {
+	opacity: .7;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+
+/*...............................................................................................................
+	CSS FOR SECTION TITLE/HEADING, SECTION PADDING START
+...............................................................................................................*/
+
+.section-padding {
+	padding: 70px 0;	
+}
+
+.management-bg {
+	
+}
+
+.management-bg {
+    position: relative;
+}
+
+.management-bg:before {
+    position: absolute;
+    height: 455px;
+    width: 50%;
+    left: 0;
+    top: 0;
+    content: "";
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/info.jpg);
+}
+
+body {
+    color: #aeaeae;
+    line-height: 1.8;
+}
+
+h1, h2, h3, h4 {
+    color: #000000;
+}
+
+.management-content h2 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 26px;
+}
+
+.management-content h2 span {
+    color: #19B7FF;
+}
+
+.accordion-area button {
+    color: #636363;
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.accordion-area .card {
+    border-radius: 0;
+}
+
+.accordion-area .card-header {
+    background-color: #fff;
+    border-bottom: none;
+    padding: 0;
+}
+
+.accordion-area .card-header h5 {
+    padding: 0px 20px;
+    display: block;
+    position: relative;
+}
+
+.accordion-area .card-header h5 i.fa {
+    position: absolute;
+    right: 20px;
+    font-size: 28px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    top: 0px;
+	display: none;
+}
+
+.accordion-area .card-header h5 [aria-expanded='true'] i.fa.fa-angle-down {
+    display: block;
+}
+
+.accordion-area .card-header h5 [aria-expanded='false'] i.fa.fa-angle-up {
+    display: block;
+}
+
+button {
+    /* display: block; */
+}
+
+.accordion-area .card-header h5 {
+	padding-left: 0;
+}
+
+.accordion-area .card-header .btn.btn-link {
+    display: block;
+    padding-right: 282px;
+	padding-left: 15px;
+}
+
+.accordion-area .card-header .btn.btn-link:hover, .accordion-area .card-header .btn.btn-link:focus {
+    text-decoration: none;
+    color: #636363;
+}
+
+.accordion-area .card {
+    margin-bottom: 20px;
+}
+
+.management-content {
+    padding: 30px;
+    padding-right: 0;
+}
+
+.accordion-area .card-body {
+    padding: 15px;
+    padding-top: 0;
+}
+/*...............................................................................................................
+	CSS FOR NEWS AREA START
+...............................................................................................................*/
+
+/*...............................................................................................................
+	CSS FOR NEWS AREA END
+...............................................................................................................*/

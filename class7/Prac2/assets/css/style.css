@@ -1,0 +1,180 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #2B2B2B;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	color: #2B2B2B;
+
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+	outline: 0;
+}
+
+a:hover {
+	opacity: .7;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+
+/*...............................................................................................................
+	CSS FOR SECTION TITLE/HEADING, SECTION PADDING START
+...............................................................................................................*/
+
+.section-padding {
+	padding: 70px 0;	
+}
+
+
+h1, h2, h3, h4, h5 {
+    color: #292929;
+}
+.section-title h2 {
+    font-weight: 700;
+    font-size: 30px;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 15px;
+}
+.section-title h2:before {
+    position: absolute;
+    content: "";
+    width: 100px;
+    height: 4px;
+    background: #707070;
+    bottom: 0;
+    left: 0;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.section-title h2:after {
+    position: absolute;
+    content: "";
+    background: #14ADF3;
+    bottom: 0;
+    height: 4px;
+    width: 80px;
+    left: 0;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+}
+.section-title p {
+    color: #ACACAC;
+    font-size: 14px;
+}
+.section-title {
+    margin-bottom: 100px;
+}
+.staff-img img {
+    /*! max-width: 180px; */
+}
+.single-staff {
+    padding: 20px;
+}
+.staff-img {
+    height: 170px; 
+    width: 170px; 
+    display: block;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.staff-img img {
+    text-align: center;
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    display: block;
+    /*! margin: 0 auto; */
+}
+.staff-content h3 {
+    font-weight: 700;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.staff-content span {
+    text-transform: none;
+    font-weight: normal;
+    font-size: 70%;
+    opacity: .7;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.staff-img {
+	background-size:cover;
+	background-position: center top;
+}
+.staff-bg1 {
+	background-image: url(../img/staff2.jpg);
+}
+.staff-bg2 {
+	background-image: url(../img/staff3.jpg);
+}
+.staff-bg3 {
+	background-image: url(../img/staff4.jpg);
+}
+
+.single-staff {
+    float: left;
+}
+.staff-img.staff-bg1, .staff-img.staff-bg2, .staff-img.staff-bg3 {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+}
+
+
+.carousel-area .owl-nav div {
+    display: inline-block;
+    background-color: #F3F3F3;
+    width: 50px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 5px;
+    transition: .3s;
+}
+.carousel-area .owl-nav div:hover {
+    background-color: #14ADF3;
+    color: #fff;
+}
+.carousel-area .owl-nav {
+    position: absolute;
+    right: 0;
+    top: -70px;
+}
+/*...............................................................................................................
+	CSS FOR NEWS AREA START
+...............................................................................................................*/
+
+/*...............................................................................................................
+	CSS FOR NEWS AREA END
+...............................................................................................................*/

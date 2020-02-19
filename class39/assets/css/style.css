@@ -1,0 +1,177 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html, body, .full-height {
+	height: 100%;
+}
+
+body {
+	max-height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 700;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	color: #7e8287;	
+}
+
+a:hover {
+	opacity: .7;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+
+.logo img {
+	max-width: 80px;
+	max-height: 80px;
+	position: absolute;
+	left: -85px;
+	top: -16px;
+}
+
+.logo a {
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 2px;
+  position: absolute;
+  left: 0px;
+  top: 7px;
+}
+
+.logo {
+  position: relative;
+  left: 85px;
+}
+
+.main-menu {
+}
+
+.main-menu li {
+  display: inline-block;
+}
+
+.main-menu li a {
+	display: block;
+	padding: 11px;
+	color: #fff;
+	opacity: .5;
+}
+
+.main-menu li a:hover {
+	opacity: 1;
+}
+
+.gradiant-overlay-wraper {
+	background-image: url(../img/slide-bg1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-color: #ccc;
+	position: relative;
+	z-index: 1;
+}
+
+.gradiant-overlay-wraper:before {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  z-index: -1;
+  top: 0;
+  left: 0;
+background: #285bc9;
+background: -moz-linear-gradient(-45deg, #285bc9 0%, #edb1b3 100%);
+background: -webkit-linear-gradient(-45deg, #285bc9 0%,#edb1b3 100%);
+background: linear-gradient(135deg, #285bc9 0%,#edb1b3 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#285bc9', endColorstr='#edb1b3',GradientType=1 );
+	opacity: .9;
+}
+
+.header-area {
+	padding: 20px 0;
+	position: relative;
+}
+
+.header-area:after {
+  position: absolute;
+  width: 96%;
+  height: 1px;
+  content: "";
+  left: 2%;
+  bottom: 0;
+  background-color: #fff;
+  opacity: .2;
+}
+.header-area {
+  
+}
+
+.slide-text, .slide-text a {
+  color: #fff;
+} 
+.slide-text {
+  padding: 150px 0;
+  line-height: 2;
+	width: 450px;
+}
+.slide-text h1 {
+  font-size: 50px;
+  padding-bottom: 20px;
+	font-weight: 300;
+}
+
+.slide-text p {
+	font-size: 18px;
+	opacity: .6;	
+}
+
+.btn-bordered {
+  border: 1px solid #fff;
+  padding: 15px 25px;
+  border-radius: 50px;
+  margin-right: 20px;
+  text-transform: uppercase;
+}
+
+.section-slide-btn {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-top: 30px;
+  display: inline-block;
+}
+
+.btn-underlined {
+  text-decoration: underline;
+}
+
+.right-img img {
+  height: 650px;
+  position: absolute;
+  bottom: -22px;
+  left: 0;
+}

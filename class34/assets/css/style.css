@@ -1,0 +1,111 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html, body, .full-height {
+	height: 100%;
+}
+
+body {
+	max-height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	color: #333;
+	font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 700;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+	outline: 0;
+	color: #7e8287;	
+}
+
+a:hover {
+	opacity: .7;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+.section-padding {
+	padding: 100px 0;
+}
+
+.single-slides-item {
+	background-image: url(../img/full-width-bg.jpg);
+	-webkit-background-size: cover;
+	background-size: contain;
+	background-position: center center;
+	background-color: #ddd;
+	width: 100%;
+	height: 650px;
+	position: relative;
+}
+
+.single-slides {
+    background-color: #1783C8;
+    color: #fff;
+    padding: 80px;
+    line-height: 1.8;
+    padding-left: 0;
+    z-index: 3;
+    position: relative;
+	padding-right: 100px;
+}
+
+.slide-text-area {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+a.btn-book {
+	color: #fff;
+    background-color: #3E4043;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 30px;
+}
+
+.single-slides:before {
+    position: absolute;
+    content: "";
+    left: -86%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #1783C8;
+    z-index: -1;
+}
+
+.single-slides:after {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #1783C8;
+    content: "";
+    right: -15px;
+    top: 20%;
+    transform: rotate(45deg);
+}

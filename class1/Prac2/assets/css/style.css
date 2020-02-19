@@ -1,0 +1,188 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #585858;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	color: #212121;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+	outline: 0;
+}
+
+a:hover {
+	
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+
+/*...............................................................................................................
+	CSS FOR SECTION TITLE/HEADING, SECTION PADDING START
+...............................................................................................................*/
+
+.section-title h2 {
+    font-size: 32px;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 13px;
+}
+
+.section-title {
+    text-align: center;
+    margin: 0 0 50px 0;
+}
+
+.section-padding {
+    margin: 70px 0;
+}
+
+.section-title h2:before {
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    content: "";
+    background: #FF8F17;
+    left: 50%;
+    bottom: 0;
+    margin-left: -40px;
+}
+
+.section-title h2:after {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    content: "";
+    width: 30px;
+    height: 2px;
+    background: #2B2118;
+    margin-left: -15px;
+}
+
+.news-bg1 {
+	background-image: url(../img/news-bg1.jpg);
+}
+.news-bg2 {
+	background-image: url(../img/news-bg2.jpg);
+}
+.news-bg3 {
+	background-image: url(../img/news-bg3.jpg);
+}
+
+.news-bg {
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+    background-color: #ddd;
+    background-position: center;
+	border: 1px solid #FF8F17;
+}
+
+.news-meta a {
+    color: #585858;
+}
+.news-meta i.fa:before {
+    color: #FF8F17;
+    padding-right: 10px;
+}
+
+.news-meta i {
+    padding-right: 0px;
+}
+
+.news-content {
+    border: 1px solid #EEF3FA;
+    border-top: transparent;
+    line-height: 2;
+    padding: 27px;
+}
+
+.news-content h4 {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.news-meta {
+    font-size: 14px;
+}
+
+.news-content p {
+    margin: 0;
+}
+
+i.fa.fa-user {}
+
+.news-meta a {
+    margin-right: 18px;
+}
+
+a.btn-boxed {
+    background-color: #FF8F17;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 8px 22px;
+    border-radius: 5px;
+    margin-top: 21px;
+    transition: .3s;
+}
+
+a.btn-boxed:hover {
+    background: #222222;
+}
+
+a.btn-boxed {}
+
+a.btn-boxed {}
+
+.single-news {
+    margin-top: 20px;
+}
+
+.news-content {
+    transition: .3s;
+}
+
+.single-news:hover .news-content {
+    border-color: #FF8F17;
+}
+/*...............................................................................................................
+	CSS FOR SECTION TITLE/HEADING, SECTION PADDING END
+...............................................................................................................*/
+
+
+/*...............................................................................................................
+	CSS FOR NEWS AREA START
+...............................................................................................................*/
+
+/*...............................................................................................................
+	CSS FOR NEWS AREA END
+...............................................................................................................*/

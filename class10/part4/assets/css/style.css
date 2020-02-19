@@ -1,0 +1,539 @@
+/*
+RRF 100+ SECTION DEVELOPMENT
+CLASS # 10-4
+REPORT SUBMISSION DT : 02/11/2017
+SUBMITTED BY : skmorshed75@gmail.com
+*/
+
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+/*CODE BOLD / LIGHT FONTS*/
+@font-face {
+  font-family: 'CodeBold';
+  src: url('../fonts/Code-Bold.eot');
+  src: url('../fonts/Code-Bold.eot') format('embedded-opentype'), url('../fonts/Code-Bold.woff') format('woff'), url('../fonts/Code-Bold.woff') format('woff'), url('../fonts/Code-Bold.ttf') format('truetype'), url('../fonts/Code-Bold.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'CodeLight';
+  src: url('../fonts/Code-Light.eot');
+  src: url('../fonts/Code-Light.eot') format('embedded-opentype'), url('../fonts/Code-Light.woff') format('woff'), url('../fonts/Code-Light.woff') format('woff'), url('../fonts/Code-Light.ttf') format('truetype'), url('../fonts/Code-Light.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Karla', sans-serif;
+	font-size: 15px;
+	color: #AEAEAE;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	color: #333;
+	font-weight: 700;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+	outline: 0;
+	color: #7e8287;	
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+
+
+
+/*...............................................................................................................
+	CSS FOR SECTION TITLE/HEADING, SECTION PADDING START
+...............................................................................................................*/
+
+.section-padding {
+	padding: 0px 0;
+}
+
+.section-title {	
+    margin-bottom: 60px;
+	position: relative;
+}
+
+.section-title h2 {	
+    color: #333;
+    font-size: 30px;
+	font-weight: 900;
+	text-transform: none;
+	margin-bottom: 10px;
+}
+
+
+/*...............................................................................................................
+	CSS FOR SECTION TITLE/HEADING, SECTION PADDING END
+...............................................................................................................*/
+
+
+/*...............................................................................................................
+	CSS FOR HEADER AREA START
+...............................................................................................................*/
+.header-area {
+	padding: 10px 0 0;
+}
+
+.menu-triger span {
+    width: 35px;
+    background: #E84F88;
+    height: 2px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.menu-triger .bar-small {
+    width: 25px;
+}
+
+.menu-triger .bar-medium {
+    width: 30px;
+}
+
+.main-menu ul {
+    display: inline-block;
+    /* float: left; */
+    margin: 0;
+    padding: 0;
+}
+
+.main-menu ul li {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    padding-right: 30px;
+}
+
+.main-menu ul li a {
+    color: #5b3f61;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+.menu-right {
+    float: right;
+}
+
+.menu-right a {
+    display: inline-block;
+    color: #5b3f61;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+.menu-right a i.fa {
+    font-size: 22px;
+    padding-left: 20px;
+}
+
+.menu-right img {
+    padding-left: 20px;
+}
+
+.hero-area {
+    background-color: #F2E5E1;
+}
+
+.menu-right a i.fa {
+    position: relative;
+    top: 3px;
+}
+
+.menu-right a img {
+	top: -5px;
+	position: relative;
+}
+
+.main-menu {
+    padding-top: 5px;
+}
+
+.menu-right a i.fa {
+    position: relative;
+    top: 3px;
+}
+
+.menu-right a img {top: -5px;position: relative;}
+
+.main-menu {
+    padding-top: 5px;
+}
+
+/*...............................................................................................................
+	CSS FOR HEADER AREA END
+...............................................................................................................*/
+
+/*...............................................................................................................
+	CSS FOR SLIDER AREA START
+...............................................................................................................*/
+
+.slider-area {
+	background-color: #F4EAE7;
+	position: relative;
+}
+
+.slider-bg1 {
+	background-image: url("../img/slider-bg.png");
+	background-size: cover;
+	height: 650px;
+	margin-left: calc(50% - 300px);
+	width: 600px;	
+}
+
+
+.single-slide {
+    height: 650px;
+    position: absolute;
+    width: 100%;
+}
+.slide-text-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+.slide-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+}
+.slide-text-table span {
+    color: #e84f88;
+    display: block;
+    font-family: CodeLight,sans-serif;
+    font-size: 120px;
+    line-height: 120px;
+    margin-left: -188px;
+    text-transform: uppercase;
+}
+span.slide-italic {
+    font-family: CodeBold,sans-serif;
+    font-style: italic;
+    font-weight: 400;
+}
+span.slide-blue {
+    color: #6db0c6;
+}
+
+
+.big-menu li {
+    background: #ecf3e8 none repeat scroll 0 0;
+    color: #5b3f61;
+    float: left;
+    font-family: CodeLight;
+    font-size: 48px;
+    padding-bottom: 50px;
+    padding-top: 200px;
+    text-transform: uppercase;
+    width: 30%;
+}
+.big-menu {
+    overflow: hidden;
+    text-align: center;
+}
+.big-menu li:nth-child(2) {
+    background-color: #f1e5e5;
+    color: #e84f88;
+    font-family: codebold,sans-serif;
+}
+.big-menu li:nth-child(3) {
+    background-color: #f6f3e6;
+}
+.big-menu li:nth-child(4) {
+    background-color: #ecf4f5;
+    padding-left: 50px;
+    text-align: left;
+}
+.big-menu li:nth-child(2), .big-menu li:nth-child(3) {
+    width: 20%;
+}
+.big-menu li:first-child {
+    padding-right: 50px;
+    text-align: right;
+}
+
+/*...............................................................................................................
+	CSS FOR SLIDER AREA END
+...............................................................................................................*/
+
+/*...............................................................................................................
+	CSS FOR PRODUCT AREA START
+...............................................................................................................*/
+.product-bg1{
+	background-image: url(../img/product-bg1.png);
+}
+.product-bg2{
+	background-image: url(../img/product-bg2.png);
+}
+.product-bg3{
+	background-image: url(../img/product-bg3.png);
+}
+.product-bg4{
+	background-image: url(../img/product-bg4.png);
+}
+.product-bg5{
+	background-image: url(../img/product-bg5.png);
+}
+.product-bg6{
+	background-image: url(../img/product-bg6.png);
+}
+.product-bg7{
+	background-image: url(../img/product-bg7.png);
+}
+.product-bg8{
+	background-image: url(../img/product-bg8.png);
+}
+.product-bg9{
+	background-image: url(../img/product-bg9.png);
+}
+.product-bg10{
+	background-image: url(../img/product-bg10.png);
+}
+
+
+.product-list {
+    margin-left: -2%;
+}
+.single-product {
+    background-color: #f0cdbd;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    bottom: 0;
+    float: left;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    width: 18%;
+}
+.single-product:nth-child(2) {
+    height: 620px;
+    width: 78%;
+}
+.single-product:nth-child(4) {
+    width: 58%;
+}
+.single-product:nth-child(9) {
+    width: 38%;
+}
+
+
+.product-top {
+    float: right;
+    padding: 12px;
+    position: relative;
+    z-index: 9;
+}
+.product-top a {
+    color: #9f8ea2;
+    padding: 5px;
+}
+.product-hover::after {
+    background: rgba(109, 176, 198, 0.69) none repeat scroll 0 0;
+    content: "";
+    height: 100%;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+.product-hover > a {
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    left: 50%;
+    line-height: 30px;
+    margin-left: -40px;
+    margin-top: 0px;
+    padding: 5px 10px;
+    position: absolute;
+    text-align: center;
+    text-transform: uppercase;
+    top: 50%;
+    width: 80px;
+    z-index: 9;
+	transition: .5s;
+}
+.product-hover {
+height: 100%;
+opacity: 0;
+transition: all 0.5s ease 0s;
+width: 100%;
+}
+
+.single-product:hover .product-hover {
+  opacity: 1;
+}
+
+.single-product:hover .product-hover > a {
+  margin-top: -25px;
+}
+
+.single-product:hover .product-btm {
+  bottom: 0px;
+}
+
+.single-product:hover .product-top a {
+  color: #fff;
+}
+
+.product-btm {
+    background: #fff none repeat scroll 0 0;
+    bottom: 50px;
+    color: #5b3f61;
+    font-family: karla,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+	transition: .5s;
+}
+.product-btm p {
+    margin: 0;
+}
+p.color-grey {
+	color: #89838a;
+}
+
+span.product-price {
+    bottom: 10px;
+    color: #e84f88;
+    font-size: 20px;
+    position: absolute;
+    right: 0;
+}
+
+span.color-box span {
+    border: 1px solid #d9d4da;
+    bottom: -1px;
+    display: inline-block;
+    height: 13px;
+    position: relative;
+    width: 13px;
+}
+span.color-box {
+    padding-left: 4px;
+    position: absolute;
+}
+span.color-white {
+}
+.color-box span.color-red {
+    background: #ee4a4a none repeat scroll 0 0;
+    border-color: #ee4a4a;
+}
+.color-box span.color-green {
+    background: #99e4e7 none repeat scroll 0 0;
+    border-color: #99e4e7;
+}
+
+.btn-load-more {
+  background: #f9f9f8 none repeat scroll 0 0;
+  color: #e84f88;
+  display: block;
+  font-family: karla;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 30px 0;
+  text-align: center;
+  text-transform: uppercase;
+margin-bottom: 50px;
+}
+
+/*...............................................................................................................
+	CSS FOR PRODUCT AREA END
+...............................................................................................................*/
+
+/*...............................................................................................................
+	CSS FOR PROMO AREA START
+...............................................................................................................*/
+
+.promo-img {	
+	background-color: #f4f0f0;
+	padding-bottom: 0;
+	padding-top: 50px;
+}
+
+.promo-img > img {
+  bottom: -25px;
+  position: relative;
+	height: 500px;
+}
+
+.promo-content h2 {
+color: #e84f88;
+font-family: CodeLight;
+font-size: 36px;
+position: relative;
+text-transform: uppercase;
+z-index: 1;
+}
+
+
+.promo-content h2.season {
+    font-family: codebold;
+    margin-top: -6px;
+}
+.promo-content {
+background-color: #f8f5f5;
+margin-left: -30px;
+padding: 80px 50px 123px;
+}
+.promo-content > p {
+    color: #786b7a;
+    font-size: 16px;
+    line-height: 34px;
+	margin-top: 40px;
+}
+.promo-content > span {
+    color: #dfe8ed;
+    font-family: CodeBold;
+    font-size: 110px;
+    left: 260px;
+    position: absolute;
+    top: 65px;
+    z-index: 0;
+}
+
+.btn-more {
+  background: #51abc8 none repeat scroll 0 0;
+  color: #fff;
+  font-family: Karla;
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 44px;
+ padding: 10px 20px;
+  position: absolute;
+  text-transform: uppercase;
+}
+
+/*...............................................................................................................
+	CSS FOR PROMO AREA END
+...............................................................................................................*/

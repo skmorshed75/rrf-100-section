@@ -1,0 +1,118 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html, body, .full-height {
+	height: 100%;
+}
+
+body {
+	max-height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 700;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	color: #7e8287;	
+}
+
+a:hover {
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+.section-padding {
+	padding: 100px 0;
+}
+
+
+.shopping-guides {
+    background: #EBEAEF;
+}
+.section-bg {
+    background-color: #77D4DC;
+    color: #fff;
+    padding: 100px;
+    /*! overflow: hidden; */
+    position: relative;
+    border-radius: 5px;
+    min-height: 757px;
+}
+.content-area {
+    /*! float: left; */
+    /*! overflow: hidden; */
+    width: 450px;
+    /*! position: relative; */
+}
+.content-right {
+    /*! float: left; */
+    /*! overflow: hidden; */
+    position: absolute;
+    bottom: 0;
+    right: -24px;
+    /*! z-index: 9; */
+}
+.content-area h4 {
+    text-transform: uppercase;
+    font-size: 18px;
+    position: relative;
+    z-index: 1;
+}
+.content-area h4:after {
+    position: absolute;
+    left: 0;
+    bottom: -9px;
+    content: "";
+    width: 30px;
+    height: 3px;
+    background-color: #fff;
+}
+.content-area h1 {
+    font-size: 60px;
+    font-weight: 300;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.content-area p {
+    font-size: 18px;
+    line-height: 27px;
+}
+.btn-round {
+    color: #333;
+    background: #DAD205;
+    padding: 10px 30px;
+    display: inline-block;
+    border-radius: 50px;
+    box-shadow: 0 10px 60px #DAD205;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.content-area .btn-round {
+    margin-top: 30px;
+}
+.content-right img {
+    min-height: 757px;
+}

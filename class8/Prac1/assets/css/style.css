@@ -1,0 +1,186 @@
+/*RRF 100+ SECTION DEVELOPMENT
+CLASS # 07
+REPORT SUBMISSION DT : 23/10/2017
+SUBMITTED BY : skmorshed75@gmail.com
+*/
+
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 15px;
+	color: #AEAEAE;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	color: #333;
+	font-weight: 700;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+	outline: 0;
+	color: #7e8287;	
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+
+/*...............................................................................................................
+	CSS FOR SECTION TITLE/HEADING, SECTION PADDING START
+...............................................................................................................*/
+
+.section-padding {
+	padding: 30px 0;
+}
+
+.section-title {	
+    margin-bottom: 60px;
+	position: relative;
+}
+
+.section-title:before {	
+    margin-bottom: 30px;
+	position: absolute;
+	bottom: 35px;
+	left: 0;
+	width: 70px;
+	height: 5px;
+	background: #14ADF3;
+	content: "";
+}
+.section-title:after {	
+    margin-bottom: 30px;
+	position: absolute;
+	bottom: 35px;
+	left: 70px;
+	width: 20px;
+	height: 5px;
+	background: #ddd;
+	content: "";
+}
+.section-title h2 {	
+    color: #333;
+    font-size: 30px;
+	font-weight: 900;
+	text-transform: none;
+}
+
+.section-title span {	
+    color: #51B77B;
+}
+
+.section-title p{	
+	color: #8C8C8C;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+
+/*...............................................................................................................
+	CSS FOR SECTION TITLE/HEADING, SECTION PADDING END
+...............................................................................................................*/
+
+
+/*...............................................................................................................
+	CSS FOR SERVICES AREA START
+...............................................................................................................*/
+.service-bg1 {
+	background-image: url(../img/service-bg1.jpg);
+}
+.service-bg2 {
+	background-image: url(../img/service-bg2.jpg);
+}
+.service-bg3 {
+	background-image: url(../img/service-bg3.jpg);
+}
+.service-bg4 {
+	background-image: url(../img/service-bg4.jpg);
+}
+.service-bg {
+	background-size: cover;
+	background-color: #ddd;
+	background-position: center center;
+	height: 200px;
+	border-top-left-radius: 3px ;
+	border-top-right-radius: 3px ;
+}
+
+.service-bg img{
+	background-size: cover;
+	background-color: #ddd;
+	background-position: center center;
+	height: 200px;	
+}
+
+.single-service {
+	transition: .3s	
+}
+
+.single-service img{
+}
+
+.single-service:hover .service-bg {
+	opacity: .9;
+}
+
+.single-service:hover .service-content{
+	background-color: #fff;
+	box-shadow: 0px 0px 5px 1px #ddd;
+}
+.service-content {
+    color: #C4C4C4;
+    font-size: 14px;
+    line-height: 27px;
+	background-color: #fafafa;
+	padding: 30px 20px;
+	border-radius: 3px;
+}
+
+.service-content h4 {
+    font-size: 20px;
+}
+
+a.service-btn {
+    font-size: 14px;
+    font-weight: 700;
+    color: #2ECC71;
+	transition: .3s;
+}
+
+a.service-btn i {
+    padding-left: 5px;
+}
+
+a.service-btn:hover {
+    background-color: #2ECC71;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 50px;
+}
+
+
+/*...............................................................................................................
+	CSS FOR SERVICES AREA END
+...............................................................................................................*/

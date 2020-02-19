@@ -1,0 +1,219 @@
+/*
+Extra small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap
+*/
+
+/*Extra large devices (large desktops, 1200px and up) - LG */
+
+@media (min-width: 1200px) {
+	.header-top-area {
+		display: block;
+	}
+	.sticky-wrapper {
+		height: 150px !important;
+	}
+}
+/*Large devices (desktops, 992px and up)*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+	.header-top-area {
+		display: block;
+	}
+	.sticky-wrapper {
+		height: 150px !important;
+	}
+}
+/*Medium devices (tablets, 768px and up) - MD*/
+
+/* Tablet / Medium Layout: 768px. MD */
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	/*@media (min-width: 768px) and (max-width: 991.98px) {*/
+	.sticky-wrapper {
+		height: 225px !important;
+	}
+	.is-sticky .sticky-area .main-header-area {
+		margin-top: 0px;
+	}
+	.header-left {
+		text-align: center;
+	}
+	.header-top-area .text-right {
+		float: none;
+		text-align: center !important;
+	}
+	.logo {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.main-header-area {} .sticky-wrapper .is-sticky {
+		text-align: center;
+		float: none;
+	}
+	/*.header-top-area {display: none;}*/
+	.is-sticky .main-header-area {
+		top: 29px;
+		display: block;
+	}
+	.main-menu-area {
+		float: none;
+	}
+	.main-menu {
+		text-align: center;
+		float: none;
+	}
+	.slider-table-cell h1 {
+		font-size: 50px;
+	}
+	.single-carousel div {
+		height: 600px;
+	}
+	a.btn-square.btn-cta {
+		float: none;
+		text-align: center;
+		display: block;
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+/*Extra small devices (portrait phones, less than 576px)*/
+
+@media only screen and (max-width: 767px) {
+	/*@media (max-width: 575.98px) {*/
+	.slicknav_menu {
+		display: block;
+	}
+	.main-menu {
+		display: none;
+	}
+	.header-top-area {
+		display: none;
+	}
+	.sticky-wrapper {
+		height: 225px !important;
+	}
+	.section-padding {
+		padding: 50px 0;
+	}
+	.section-title {
+		padding: 40px 0;
+	}
+	.section-title h2 {
+		font-size: 25px;
+	}
+	.logo {
+		float: left;
+	}
+	.slicknav_menu {
+		display: inline-block;
+		float: right;
+		padding: 15px;
+	}
+	#undefined-sticky-wrapper {
+		height: 80px !important;
+		background-color: #FC721E;
+	}
+	.slicknav_menu {
+		background-color: #FC721E;
+		position: absolute;
+		z-index: 9;
+		right: 19px;
+		top: 17px;
+		text-align: center;
+		font-size: 18px;
+		width: 200px;
+		padding: 0;
+	}
+	.slicknav-btn.slicknav-open {} .slicknav_btn.slicknav_open .smooth-menu a {
+		padding: 0;
+	}
+	.slicknav_menu li.smooth-menu a {
+		border-bottom: 1px solid #aaa;
+	}
+	.slicknav_menu ul {
+		margin: 0;
+	}
+	.slider-table-cell h1 {
+		font-size: 40px;
+	}
+	.single-team,
+	.single-service,
+	.single-footer {
+		max-width: 70%;
+		margin: 15px auto;
+	}
+	.section-title {
+		max-width: 70%;
+		margin: 0 auto;
+	}
+}
+/*Small devices (landscape phones, 576px and up)*/
+
+/* Wide Mobile Layout: 480px. SM */
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	/*@media (min-width: 576px) and (max-width: 767.98px) {*/
+	.slicknav_menu {
+		display: block;
+	}
+	.main-menu {
+		display: none;
+	}
+	.header-top-area {
+		display: none;
+	}
+	.sticky-wrapper {
+		height: 225px !important;
+	}
+	.section-padding {
+		padding: 50px 0;
+	}
+	.section-title {
+		padding: 40px 0;
+	}
+	.logo {
+		float: left;
+	}
+	.slicknav_menu {
+		display: inline-block;
+		float: right;
+		padding: 15px;
+	}
+	#undefined-sticky-wrapper {
+		height: 80px !important;
+		background-color: #FC721E;
+	}
+	.slicknav_menu {
+		background-color: #FC721E;
+		position: absolute;
+		z-index: 9;
+		right: 19px;
+		top: 17px;
+		text-align: center;
+		font-size: 18px;
+		width: 200px;
+		padding: 0;
+	}
+	.slicknav-btn.slicknav-open {} .slicknav_btn.slicknav_open .smooth-menu a {
+		padding: 0;
+	}
+	.slicknav_menu li.smooth-menu a {
+		border-bottom: 1px solid #aaa;
+	}
+	.slicknav_menu ul {
+		margin: 0;
+	}
+	.slider-table-cell h1 {
+		font-size: 40px;
+	}
+	.single-team,
+	.single-service,
+	.single-footer {
+		max-width: 70%;
+		margin: 15px auto;
+	}
+	.section-title {
+		max-width: 70%;
+		margin: 0 auto;
+	}
+}

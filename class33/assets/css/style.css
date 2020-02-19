@@ -1,0 +1,165 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html, body, .full-height {
+	height: 100%;
+}
+
+body {
+	max-height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	color: #333;
+	font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 700;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+	outline: 0;
+	color: #7e8287;	
+}
+
+a:hover {
+	opacity: .7;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+.section-padding {
+	padding: 100px 0;
+}
+
+.full-width-bg {
+	background-image: url(../img/full-width-bg.jpg);
+	background-size: cover;
+	background-position: center center;
+	background-color: #ddd;
+	margin: 70px 0;
+}
+
+.about-area {
+    margin-top: -70px;
+    margin-bottom: -70px;
+    line-height: 1.8;
+	padding: 100px;
+	position: relative;
+}
+
+
+.dark-bg, .dark-bg a {
+    background-color: #2B2F41;
+    color: #fff;
+}
+.about-content {
+	padding: 30px;
+}
+.about-content h1 {
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.about-content p {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+.about-area h4 {
+    /* font-size: 22px; */
+    /* position: relative; */
+}
+
+.about-content span {
+    font-size: 60%;
+    opacity: .6;
+}
+
+.about-content h4:before {
+    content: "";
+    position: absolute;
+    width: 30px;
+    height: 10px;
+    color: #fff;
+    left: 0;
+    top: 0;
+}
+
+.about-content h4 {
+    position: relative;
+    font-size: 22px;
+    padding-left: 37px;
+    margin-bottom: 50px;
+}
+
+.about-area.dark-bg {}
+
+h4 {}
+
+.about-content h4:before {
+    position: absolute;
+    content: "";
+    width: 30px;
+    height: 2px;
+    color: #fff;
+    background: red;
+    left: 0;
+    top: 12px;
+}
+
+.about-content {}
+
+a.btn-consult {
+    border: 1px solid #CDA972;
+    padding: 15px 25px;
+    font-size: 20px;
+	display: inline-block;
+}
+
+.author img {
+    
+}
+
+.about-content:before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 60px;
+    border-top: 1px solid #fff;
+    border-left: 1px solid #fff;
+    left: -11px;
+	top: 0;
+}
+
+.about-content:after {
+    content: "";
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    right: -50px;
+    bottom: 100px;
+    border-right: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+}

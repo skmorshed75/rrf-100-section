@@ -1,0 +1,166 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #AEAEAE;
+	font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 700;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+	outline: 0;
+	color: #7e8287;	
+}
+
+a:hover {
+	opacity: .7;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+
+/*...............................................................................................................
+	CSS FOR SECTION TITLE/HEADING, SECTION PADDING START
+...............................................................................................................*/
+
+.section-padding {
+	padding: 50px 0;
+}
+
+.section-title {	
+    padding: 0 0 40px 0;
+    color: #999999;
+    font-size: 17px;	
+}
+
+.section-title h2{
+	color: #242424;
+	font-size: 30px;
+}
+
+/*...............................................................................................................
+	CSS FOR SERVICES AREA START
+...............................................................................................................*/
+.header-area {
+  position: absolute;
+  width: 100%;
+  z-index: 9;
+  padding-top: 15px;
+}
+
+.logo img {
+  width: 50px;
+  height: auto;
+}
+.logo span {
+  font-size: 23px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #FCCA3E;
+  line-height: 50px;
+}
+.mainmenu {
+  text-align: right;
+}
+.mainmenu ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.mainmenu ul li {
+  display: inline-block;
+}
+.mainmenu ul li a {
+  display: block;
+  padding-left: 47px;
+  line-height: 57px;
+	color: #fff;
+}
+
+
+.logo span {
+  top: 7px;
+  position: absolute;
+}
+.homepage-slides {
+  background: #263238;
+}
+.slide-text {
+  padding: 100px 0;
+	padding-bottom: 150px;
+}
+.slide-text h2 {
+  color: #E6AD21;
+  font-weight: 300;
+  line-height: 51px;
+  font-size: 43px;
+  margin-bottom: 25px;
+}
+.slide-text p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+a.btn-readmore {
+  color: #F1B71E;
+  font-size: 16px;
+  border: 1px solid #fff;
+  padding: 15px 25px;
+  border-radius: 5px;
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.btn-readmore i {
+  margin-left: 10px;
+}
+
+.single-slides .row {
+  position: relative;
+}
+
+.single-slides {
+  padding-top: 100px;
+}
+
+.slide-img {
+max-width: 500px;
+right: 0;
+position: absolute;
+margin-right: 15px;
+bottom: 0;
+}
+
+.slide-img img {
+    height: 550px;
+}
+
+/*...............................................................................................................
+	CSS FOR SERVICES AREA END
+...............................................................................................................*/

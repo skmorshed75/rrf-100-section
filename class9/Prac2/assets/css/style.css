@@ -1,0 +1,155 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+/*	font-family: 'Open Sans', sans-serif;*/
+	font-size: 15px;
+	color: #2B2B2B;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	color: #2B2B2B;
+
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+	outline: 0;
+}
+
+a:hover {
+	opacity: .7;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+
+/*...............................................................................................................
+	CSS FOR SECTION TITLE/HEADING, SECTION PADDING START
+...............................................................................................................*/
+
+.section-padding {
+	padding: 70px 0;	
+}
+
+
+.section-title {
+    margin-bottom: 70px;
+}
+.section-title h2 {
+    font-size: 30px;
+    font-weight: 700;
+    position: relative;
+}
+.section-title.text-center {
+}
+
+
+.section-border span {
+    width: 40px;
+    height: 4px;
+    background: #6AAF08;
+    display: inline-block;
+    border-radius: 5px;
+}
+.section-border {
+    margin-top: -10px;
+}
+span.border-short {
+    background: #222;
+    width: 20px;
+    margin: 0 5px;
+}
+.single-client {
+    font-size: 18px;
+    border: 1px solid #D5DCCC;
+    padding: 20px;
+    padding-left: 100px;
+    position: relative;
+}
+.single-client h5 {
+    font-weight: 700;
+    font-size: 17px;
+}
+.single-client span {
+    font-weight: 300;
+    display: block;
+    font-size: 73%;
+    margin-top: 4px;
+    opacity: .9;
+}
+.single-client:before {
+    position: absolute;
+    width: 1px;
+    height: 80%;
+    content: "";
+    background: #D5DCCC;
+    left: 80px;
+    top: 10%;
+}
+.single-client p {
+    color: #747574;
+    font-style: italic;
+}
+
+
+
+.single-client:after {
+    font-family: fontAwesome;
+    content: "\f10e";
+    position: absolute;
+    left: 5%;
+    width: 50px;
+    height: 50px;
+    top: calc(50% - 25px);
+    color: #6AAF08;
+    font-size: 28px;
+    text-align: center;
+    line-height: 50px;
+}
+.client-list .owl-controls .owl-dots div {
+    background-color: #6AAF08;
+    width: 20px;
+    height: 5px;
+    display: inline-block;
+    margin: 0 5px;
+    border-radius: 5px;
+    transition: .3s;
+}
+.client-list .owl-controls .owl-dots div.active {
+    background-color: #222222;
+    width: 30px;
+}
+.client-list .owl-dots {
+    text-align: center;
+	margin-top: 20px;
+}
+
+
+/*...............................................................................................................
+	CSS FOR NEWS AREA START
+...............................................................................................................*/
+
+/*...............................................................................................................
+	CSS FOR NEWS AREA END
+...............................................................................................................*/

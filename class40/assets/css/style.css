@@ -1,0 +1,193 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html, body, .full-height {
+	height: 100%;
+}
+
+body {
+	max-height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	color: #333;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 700;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	color: #7e8287;	
+}
+
+a:hover {
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+.section-padding {
+	padding: 300px 0;
+}
+
+
+
+.pricing-bg {
+	background-image: url(../img/section-bg1.jpg);
+	background-size: cover;
+	background-position: center top;	
+	background-attachment: fixed;
+}
+
+.pricing-list-bg {
+width: 100%;
+height: 180px;
+display: table;
+}
+.single-pricing:last-child {
+
+    border: none;
+
+}
+.single-pricing {
+
+    width: 33.33333%;
+    float: left;
+	position: relative;
+	z-index: 1;
+}
+
+.pricing-wraper {
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 0px 7px #777;
+	}
+
+
+.pricing-list-content h2 {
+    color: #6EBAFF;
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+}
+
+
+.pricing-list-content h2:after {
+    position: absolute;
+    bottom: -10px;
+    left: calc(50% - 20px);
+    width: 40px;
+    height: 2px;
+    background-color: #6EBAFF;
+    content:""
+}
+.pricing-list-content h1 {
+    color: #FB5D6B;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 55px;
+	margin-left: -20px;
+}
+.pricing-list-content h1 span {
+    position: relative;
+}
+.pricing-list-content h1 span:before {
+    position: absolute;
+    content: "$";
+    left: -17px;
+    top: -3px;
+    font-size: 28px;
+}
+.pricing-list-content h1 span:after {
+    position: absolute;
+    content: " / mo";
+    font-size: 19px;
+    bottom: 9px;
+	right: -40px;
+}
+.pricing-list-content p {
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #64B5FF;
+    padding-left: 25px;
+	margin-bottom: 0;
+	line-height: 30px;
+	text-align: left;
+}
+.pricing-list-content {
+    padding: 30px;
+    background-color: #fff;
+	text-align: center;
+}
+.pricing-list-content p span {
+    font-weight: 800;
+}
+
+.pricing-list-wrap {
+    display: table-cell;
+    vertical-align: middle;
+	text-align: center;
+}
+.pricing-list-wrap img {
+	max-width: 200px;
+	max-height: 180px;
+}
+
+
+.btn-square {
+    color: #fff;
+    background-color: #6EBAFF;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 10px 20px;
+	margin-top: 20px;
+    display: inline-block;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.btn-square.active {
+    background-color: #F75363;
+}
+
+.btn-square:hover {
+    background-color: #333;
+}
+
+.single-pricing:after {
+    position: absolute;
+    content: "";
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background-color: #ddd;
+    opacity: .6;
+}
+
+.pricing-list-content {
+}
+.single-pricing:last-child:after {
+    background-color: transparent;
+	/*[or] display:none*/
+}

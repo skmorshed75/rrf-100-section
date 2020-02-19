@@ -1,0 +1,118 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #2B2B2B;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	color: #2B2B2B;
+
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+	outline: 0;
+}
+
+a:hover {
+	opacity: .7;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+
+/*...............................................................................................................
+	CSS FOR SECTION TITLE/HEADING, SECTION PADDING START
+...............................................................................................................*/
+
+.section-padding {
+	padding: 70px 0;	
+}
+
+.section-title {
+    font-size: 16px;
+}
+
+.section-title h2 {
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+}
+
+.section-title h2:before {
+    position: absolute;
+    left: calc(50% - 50px);
+    bottom: 0;
+    width: 100px;
+    background: #FFDA77;
+    content: "";
+    height: 2px;
+}
+
+.section-title h2:after {
+    position: absolute;
+    bottom: 0;
+    width: 30px;
+    height: 2px;
+    content: "";
+    background: #2B2B2B;
+    left: calc(50% - 15px);
+}
+
+.section-title {
+    margin-bottom: 70px;
+}
+
+.service-icon i.fa {
+    color: #FF7875;
+    font-size: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.service-icon img {
+    max-width: 98px;
+    height: 85px;
+    margin-top: 13px;
+}
+
+.single-service {
+    padding: 0 25px;
+    margin-bottom: 70px;
+}
+
+.single-service h4 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-top: 25px;
+}
+/*...............................................................................................................
+	CSS FOR NEWS AREA START
+...............................................................................................................*/
+
+/*...............................................................................................................
+	CSS FOR NEWS AREA END
+...............................................................................................................*/

@@ -1,0 +1,133 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html, body, .full-height {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	color: #888888;
+	line-height: 1.8;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	color: #4C413E;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 700;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	transition: .3s;
+}
+
+a:hover {
+
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+
+.single-pricing {
+    width: 33.33333%;
+    float: left;
+}
+.pricing-table {
+}
+.pricing-heading {
+    background: #F9F9F9;
+    padding: 35px;
+}
+.pricing-heading h3 {
+    font-size: 25px;
+    font-weight: 400;
+}
+.pricing-heading h1 {
+    font-size: 40px;
+    font-weight: 300;
+    color: #000;
+    margin-bottom: 30px;
+    margin-top: 25px;
+}
+
+
+.pricing-content {
+    padding: 0px;
+	margin: 20px 0;
+}
+.active .pricing-content {
+	margin: 40px 0;
+}
+.pricing-content ul li {
+    line-height: 40px;
+}
+.btn-round {
+    color: #FC103C;
+    border: 1px solid #FC103C;
+    padding: 10px 25px;
+    border-radius: 50px;
+	transition: .4s;
+	font-weight: 700;
+}
+.section-padding {
+    padding: 100px 0;
+}
+
+
+.single-pricing {
+    box-shadow: 0 0 5px #999;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.active .pricing-heading {
+    background-color: #FC103C;
+    color: #fff;
+}
+.active .pricing-heading h1 {
+    color: #fff;
+}
+.single-pricing.active {
+    margin-top: -40px;
+    position: relative;
+	box-shadow: 0 0 12px #999;
+}
+.active .btn-round {
+    background: #FC103C;
+    color: #fff;
+}
+.btn-round:hover {
+    background: #FC103C;
+    color: #fff;
+	opacity: .8;
+}
+.single-pricing.active:before {
+    content: "Featured";
+    position: absolute;
+    right: -34px;
+    background: #fff;
+    transform: rotate(45deg);
+    padding: 5px 40px;
+    font-size: 15px;
+    color: #FC103C;
+    top: 18px;
+}

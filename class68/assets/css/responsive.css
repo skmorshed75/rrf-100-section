@@ -1,0 +1,93 @@
+/* Medium Layout: 1280px. MD */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+.logo a {
+		color: green;
+	}
+
+
+	
+	
+}
+
+/* Tablet / Medium Layout: 768px. MD */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+	.logo a {
+		color: yellow;
+	}
+
+
+	
+}
+
+/* Mobile Layout: 320px. XS */
+@media only screen and (max-width: 767px) { 
+	.logo a {
+		color: snow;
+	}
+
+.menu-left {
+    position: relative;
+    width: auto;
+    height: 28%;
+}
+.logo {
+    margin: 0;
+}
+.logo a {
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 30px;
+    margin-top: 20px;
+}
+.main-menu li {
+    display: inline-block;
+    padding: 0;
+    margin-bottom: 15px;
+}
+.main-menu li a {
+    padding: 0 10px;
+}
+.social-links {
+    padding: 0;
+    text-align: left;
+    margin-left: 5%;
+    display: inline-block;
+    padding-bottom: 20px;
+}
+.copyright-area {
+    display: inline-block;
+    /*! text-align: right; */
+    position: absolute;
+    right: 5%;
+}
+.main-menu {
+    margin-top: 10px;
+}
+.slider-right {
+    width: 100%;
+    margin: 0;
+	height: 72%;
+}
+.slide-text h1 {
+    font-size: 60px;
+}
+.slide-text {    
+    padding: 0; 
+	text-align: center;
+}	
+	
+}
+
+/* Wide Mobile Layout: 480px. SM */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+
+	.logo a {
+		color: red;
+	}
+
+
+		
+
+}

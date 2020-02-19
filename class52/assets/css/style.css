@@ -1,0 +1,132 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html, body, .full-height {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	color: #888888;
+	line-height: 1.8;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	color: #666666;
+	line-height: 1.8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 700;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	transition: .3s;
+}
+
+a:hover {
+
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+.bg-1 {
+	background-image: url(../img/portfolio1.jpg);
+}
+.bg-2 {
+	background-image: url(../img/portfolio2.jpg);
+}
+.bg-3 {
+	background-image: url(../img/portfolio3.jpg);
+}
+.bg-4 {
+	background-image: url(../img/portfolio4.jpg);
+}
+.bg-5 {
+	background-image: url(../img/portfolio5.jpg);
+}
+
+
+.section-padding {
+    padding: 100px 0;
+}
+.section-title {
+    text-align: center;
+
+    margin-bottom: 50px;
+	font-size: 20px;
+	color: #B0A79A;	
+}
+.section-title h2 {
+    text-transform: uppercase;
+    font-size: 32px;
+	color: #222;
+}
+
+.section-title h2 span {
+    color: #59D9DD;
+}
+
+
+.service-bg {
+    background-size: cover;
+    background-position: top center;
+    background-color: #ddd;
+    height: 250px;
+    position: relative;
+}
+.single-service {
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.service-bg i {
+    position: absolute;
+    bottom: -35px;
+    font-size: 30px;
+    background: #25385B;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    line-height: 67px;
+    border: 4px solid #fff;
+    text-align: center;
+    left: calc(50% - 35px);
+    color: #fff;
+	transition: .6s;
+}
+.service-text {
+    color: #333;
+    padding-top: 50px;
+    padding-bottom: 25px;
+	transition: .3s;
+}
+
+.single-service:hover .service-text {
+    background-color: #25385B;
+    color: #fff;
+}
+.service-bg.bg-1 {
+}
+.single-service:hover .service-bg i {
+    background: #00C9CF;
+    border-color: #25385B;
+}

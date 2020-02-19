@@ -1,0 +1,156 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html, body, .full-height {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	color: #888888;
+	line-height: 1.8;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	color: #666666;
+	line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 300;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	transition: .3s;
+	
+}
+
+a:hover {
+	opacity: .6;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+/*Feature Area*/
+
+.section-title {
+	margin-top: 50px;
+}
+.section-title h2 {
+    text-transform: uppercase;
+    color: #222;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 35px;
+}
+.section-bg {
+	position: relative
+}
+.section-bg:after {
+	background-image: url(../img/feature-bg.jpg);
+	background-size: cover;
+	background-position: center;
+	background-color: #ddd;
+	position: absolute;
+	
+}
+
+.section-bg:after {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    content: "";
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    margin-left: -250px;
+    margin-top: -250px;
+    z-index: -1;
+}
+
+.feature-item {
+    position: relative;
+    z-index: 1;
+    text-align: right;
+    margin-right: 40px;
+    margin-top: 30px;
+    padding-right: 160px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 90px;
+    margin-bottom: 30px;
+	transition: .4s;
+}
+
+.feature-icon {
+    position: absolute;
+    right: 0;
+    font-size: 40px;
+    color: steelblue;
+    background: #fff;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    line-height: 150px;
+    border-radius: 50%;
+    top: -8px;
+
+}
+
+.feature-icon i {
+    border: 1px solid #EFEFEF;
+    padding: 30px;
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    line-height: 67px;
+}
+
+.left-icon .feature-icon {
+    left: 0;
+    right: auto;
+}
+
+.feature-item.left-icon {
+	margin-left: 40px;
+    padding-left: 160px;
+    text-align: left;
+    margin-right: 90px;
+    padding-right: 0;
+}
+
+.feature-item h3 {
+    color: #333;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.feature-item.margin-right {
+    margin-right: 150px;
+    margin-left: 0;
+}
+.feature-item.margin-left {
+    margin-right: 0px;
+    margin-left: 150px;
+}
+.feature-item:hover .feature-icon{
+    box-shadow: 0px 0px 20px #999;
+    cursor: pointer;
+}

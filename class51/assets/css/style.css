@@ -1,0 +1,138 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html, body, .full-height {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	color: #888888;
+	line-height: 1.8;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	color: #666666;
+	line-height: 1.8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 700;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	transition: .3s;
+}
+
+a:hover {
+
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+.bg-1 {
+	background-image: url(../img/portfolio1.jpg);
+}
+.bg-2 {
+	background-image: url(../img/portfolio2.jpg);
+}
+.bg-3 {
+	background-image: url(../img/portfolio3.jpg);
+}
+.bg-4 {
+	background-image: url(../img/portfolio4.jpg);
+}
+.bg-5 {
+	background-image: url(../img/portfolio5.jpg);
+}
+
+
+.section-padding {
+    padding: 100px 0;
+}
+.section-title {
+    text-align: center;
+    color: #474747;
+    margin-bottom: 50px;
+}
+.section-title h2 {
+    text-transform: uppercase;
+    font-size: 28px;
+}
+.section-title p {
+    margin: 0;
+    line-height: 23px;
+    font-size: 16px;
+    color: #999;
+}
+.single-portfolio {
+    background-size: cover;
+    background-position: center center;
+    background-color: #777;
+    height: 250px;
+    position: relative;
+    z-index: 1;
+}
+.single-portfolio.full-height {
+    height: 500px;
+}
+.row.no-margin {
+    margin: 0;
+}
+.no-padding {
+    padding: 0;
+}
+.portfolio-hover {
+    position: absolute;
+    background: #000;
+    width: 90%;
+    left: 5%;
+    height: 90%;
+    top: 5%;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    opacity: 0;
+    z-index: -1;
+    font-size: 12px;
+	display: table;
+	visibility: hidden;
+	transition: .3s;
+	
+}
+.portfolio-hover-tablecell {
+    display: table-cell;
+	vertical-align: middle;
+}
+.portfolio-hover h4 {
+    text-transform: uppercase;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.portfolio-hover a i.fa {
+    color: red;
+    font-size: 24px;
+}
+.single-portfolio:hover .portfolio-hover {
+    opacity: .5;
+    visibility: visible;
+}

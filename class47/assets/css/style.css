@@ -1,0 +1,151 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html, body, .full-height {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	color: #4C413E;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 700;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	transition: .3s;
+}
+
+a:hover {
+
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+.slider-bg1 {
+	background-image: url(../img/sldier-bg.jpg);
+}
+
+.slider-area {
+	background-color: #ccc;
+	height: 100%;
+	position: relative;
+	z-index: 1;
+}
+
+.owl-carousel .owl-item .author-avator img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: inherit;
+    margin: 0 auto;
+    /*! text-align: center; */
+}
+.author-avator {
+    margin-bottom: 20px;
+}
+.single-slides {
+    color: #fff;
+    text-align: center;
+    font-size: 19px;
+}
+.slide-content p {
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.slide-content h4 {
+    font-size: 27px;
+    opacity: .7;
+    font-weight: 700;
+}
+.slide-content h4 span {
+    display: block;
+    font-size: 50%;
+}
+
+.slide-table {
+    display: table;
+    width: 100%;
+    height: 100%;
+}
+.slide-tablecell {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+
+.slider-area:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #000;
+    opacity: .6;
+    z-index: -1;
+}
+.owl-dots div {
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    display: inline-block;
+    border-radius: 50%;
+    margin: 5px;
+}
+.owl-dots {
+    text-align: center;
+    margin-top: 30px;
+}
+.owl-dots .owl-div.active {
+    background-color: #2D4451;
+}
+.owl-dot.active {
+    background-color: #2D4451;
+}
+
+.slider-items {
+	position: relative;
+}
+
+.slider-items:before {
+	font-family: FontAwesome;
+	content: "\f10d";		
+	top: 115px;
+	left: -60px;	
+
+}
+.slider-items:after {
+	font-family: FontAwesome;
+	content: "\f10e";		
+	right: -60px;
+	bottom: 110px;
+}
+.slider-items:before, .slider-items:after {
+	color: #fff;
+	opacity: .5;
+	position: absolute;
+	font-size: 30px;
+}

@@ -1,0 +1,128 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html, body, .full-height {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	color: #888888;
+	line-height: 1.8;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	color: #666666;
+	line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 300;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	transition: .3s;
+	
+}
+
+a:hover {
+	opacity: .6;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+/*Feature Area*/
+
+.feature1 .feature-bg {background-image: url("../img/feature-bg1.jpg")}
+.feature2 .feature-bg {background-image: url("../img/feature-bg2.jpg")}
+.feature3 .feature-bg {background-image: url("../img/feature-bg3.jpg")}
+.feature4 .feature-bg {background-image: url("../img/feature-bg4.jpg")}
+
+.single-feature {
+    position: relative;
+    z-index: 1;
+}
+
+
+
+.single-feature {
+    position: relative;
+    z-index: 1;
+}
+
+.feature-bg {
+    position: absolute;
+    z-index: -1;
+    width: 50%;
+    margin-left: 25%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    bottom: -50px;
+}
+
+.feature-content {
+    line-height: 1.8;
+    border-bottom: 3px solid #FE5E3D;
+    background-color: #fff;
+    padding: 40px;
+    padding-left: 100px;
+    position: relative;
+    z-index: 1;
+    box-shadow: 0 0 25px #eee;
+    padding-top: 70px;
+}
+
+.feature-no {
+    position: absolute;
+    z-index: -1;
+    font-size: 50px;
+    font-weight: 700;
+    opacity: .3;
+    left: 30px;
+    top: 60px;
+    line-height: 0;
+}
+
+.feature-no:after {
+    content: "";
+    width: 100px;
+    height: 3px;
+    background: #ddd;
+    position: absolute;
+    transform: rotate(-38deg);
+    left: -8px;
+    bottom: -14px;
+}
+
+.section-padding {
+    padding: 100px 0;
+}
+
+.feature3 .feature-content {
+    border-bottom: 3px solid #B178F7; 
+}
+.feature4 .feature-content {
+    border-bottom: 3px solid #FFBA58; 
+}
+.feature2 .feature-content {
+    border-bottom: 3px solid #2BC893; 
+}

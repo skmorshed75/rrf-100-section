@@ -1,0 +1,176 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700|Tangerine:400,700');
+
+html, body, .full-height {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	color: #333;
+	line-height: 1.8;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+	line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 300;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	transition: .3s;
+	
+}
+
+a:hover {
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+/*Feature Area*/
+
+.section-padding {
+	padding: 100px 0;	
+}
+
+.project-bg1 {
+	background-image: url(../img/project-bg1.jpg);
+}
+.project-bg2 {
+	background-image: url(../img/project-bg2.jpg);
+}
+.project-bg3 {
+	background-image: url(../img/project-bg3.jpg);
+}
+
+
+.project-content {
+    position: relative;
+}
+.project-text {
+    background: #FC6223;
+    width: 60%;
+    color: #ffff;
+    text-align: left;
+    display: inline-block;
+    line-height: 1.8;
+    padding-left: 260px;
+    padding-right: 20px;
+    padding-top: 80px;
+    padding-bottom: 100px;
+    margin-top: 170px;
+}
+.project-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 60%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    border: 20px solid #fff;
+    margin-left: -20px;
+}
+.single-content-item {
+    text-align: right;
+	position: relative;
+    /*! border-bottom: 3px solid #eee; */
+}
+
+.owl-carousel .single-content-item {
+	overflow: hidden;
+    /*! border-bottom: 3px solid #eee; */
+}
+.project-text {
+}
+.project-text h3 {
+    font-size: 26px;
+    padding-bottom: 10px;
+}
+.btn-more {
+    color: #fff;
+    margin-top: 33px;
+    display: inline-block;
+}
+.project-features {
+    position: relative;
+}
+.project-features h2 {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 35%;
+    color: #aaa;
+    font-weight: 300;
+    font-size: 25px;
+    margin-top: 50px;
+}
+h2 {
+}
+.project-features h2 span {
+    font-size: 40px;
+    color: #5C5D62;
+}
+.single-content-item:after {
+    border-bottom: 3px solid #ddd;
+    content: "";
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+}
+
+
+.project-content .owl-dots div:nth-child(1)::before {
+    content: "01";
+}
+.project-content .owl-dots div:nth-child(2)::before {
+    content: "02";
+}
+.project-content .owl-dots div:nth-child(3)::before {
+    content: "03";
+}
+.project-content .owl-dots div:nth-child(4)::before {
+    content: "04";
+}
+.project-content .owl-dots div:nth-child(5)::before {
+    content: "05";
+}
+.project-content .owl-dots div {
+    display: inline-block;
+    font-size: 50px;
+    opacity: .4;
+    margin-right: 20px;
+    font-weight: 300;
+}
+.project-content .owl-dots {
+    position: absolute;
+    bottom: 32px;
+}
+.project-content .owl-dots .owl-dot.active {
+    color: #FC6223;
+}

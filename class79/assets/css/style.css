@@ -1,0 +1,155 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,400i,500,700|Tangerine:400,700');
+
+html, body, .full-height {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	color: #888888;
+	line-height: 1.8;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	color: #1F1F20;
+	line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 300;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	transition: .3s;
+	
+}
+
+a:hover {
+	opacity: .6;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+/*Feature Area*/
+
+.section-padding {
+	padding: 100px;
+}
+
+.contact-area {
+    font-size: 25px;
+    text-transform: uppercase;
+    color: green;
+}
+.contact-us {
+    border: 1px solid #FF9800;
+    padding: 30px;
+	overflow: hidden;
+}
+.contact-us h2 {
+    font-size: 18px;
+    color: #666;
+    text-transform: uppercase;
+}
+.contact-us input {
+    width: 100%;
+    padding: 5px 10px;
+    margin: 14px 0;
+}
+
+/*
+.btn-submit {
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid #ddd;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #333;
+}
+*/
+
+input[type="submit"] {
+    color: red;
+    width: 25%;
+    display: inline-block;
+    text-align: right;
+    width: 120px;
+    display: block;
+    float: right;
+    font-size: 15px;
+    background: transparent;
+    color: #888;
+    letter-spacing: 3px;
+    text-align: center;
+    padding: 5px 15px;
+    text-transform: uppercase;
+    border: 1px solid #FF9800;
+	transition: .3s;
+}
+
+input[type="submit"]:hover {
+    background: #FF9800;
+    color: #fff;
+}
+
+form input[placeholder] {
+    color: purple;
+    opacity: 1; /* Firefox */
+	font-size: 18px;
+}
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+   color: purple;
+}
+::-ms-input-placeholder { /* Microsoft Edge */
+   color: purple;
+}
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: pink;
+}
+
+/*CSS FOR CHIMP-AJAX*/
+label {
+    font-size: 14px;
+    color: red;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: 300;
+}
+
+label.valid {
+    font-weight: 300;
+    line-height: 2;
+	font-size: 14px;
+	color: #333;
+}
+
+label a {
+    font-weight: 700;
+    line-height: 2;
+}
+.contact-us p {
+    margin: 0;
+}
+/*CSS FOR CHIMP-AJAX*/

@@ -1,0 +1,116 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html, body, .full-height {
+	height: 100%;
+}
+
+body {
+	max-height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	color: #333;
+	font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 700;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+	outline: 0;
+	color: #7e8287;	
+}
+
+a:hover {
+	opacity: .7;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+.promo-bg1 {
+	background-image: url(../img/promo_bg1.jpg);
+}
+.promo-bg2 {
+	background-image: url(../img/promo_bg2.jpg);
+}
+.promo-bg3 {
+	background-image: url(../img/promo_bg3.jpg);
+}
+
+.section-padding {
+    padding: 80px 0;
+}
+
+.single-promo {
+    background-size: cover;
+    height: 250px;
+    background-position: center center;
+    background-color: #ddd;
+    color: #fff;
+    text-align: center;
+    display: block;
+    position: relative;
+    transition: .3s;
+}
+
+.promo-content:after {
+    position: absolute;
+    content: "";
+    background: #000;
+    left: 30px;
+    top: 0;
+    width: 82%;
+    height: 93%;
+    z-index: -1;
+    opacity: .6;
+}
+
+.promo-content {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    font-size: 21px;
+    z-index: 1;
+}
+
+.promo-content h1 {
+    font-size: 60px;
+    font-style: italic;
+    margin: 0;
+}
+
+.single-promo:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0 10px #333;
+}
+
+a.scroll_top {
+    border: 1px solid #333;
+    padding: 10px 20px;
+    border-radius: 10px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    background: #563D7C;
+    color: #fff;
+	position: fixed;

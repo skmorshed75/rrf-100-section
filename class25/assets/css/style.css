@@ -1,0 +1,165 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #777;
+	font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 700;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+	outline: 0;
+	color: #7e8287;	
+}
+
+a:hover {
+	opacity: .7;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+
+/*...............................................................................................................
+	CSS FOR SECTION TITLE/HEADING, SECTION PADDING START
+...............................................................................................................*/
+
+.section-padding {
+	padding: 50px 0;
+}
+
+.section-title {	
+    padding: 0 0 40px 0;
+    color: #999999;
+    font-size: 17px;	
+}
+
+.section-title h2{
+	color: #242424;
+	font-size: 30px;
+}
+
+/*...............................................................................................................
+	CSS FOR SERVICES AREA START
+...............................................................................................................*/
+
+.section-title {
+  text-align: center;
+  margin-top: 50px;
+	margin-bottom: 30px;
+}
+.section-title span {
+  width: 70px;
+  height: 5px;
+  background: #6AAF08;
+  display: inline-block;
+  border-radius: 5px;
+}
+span.border-black {
+  width: 40px;
+  background: #000;
+}
+.single-service {
+	margin-bottom: 15px;
+	padding-right: 30px;
+}
+.featured-thumb {
+	background: #ddd;
+	display: block;
+	height: 120px;
+	width: 100%;
+	position: relative;
+	border: 1px solid #fff;
+		background-size: cover;
+	background-position: center center;
+}
+.why-choose-img1 {
+	background-image: url(../img/why-choose1.jpg);
+
+		
+}
+.why-choose-img2 {
+	background-image: url(../img/why-choose2.jpg);
+		
+}
+.why-choose-img3 {
+	background-image: url(../img/why-choose3.jpg);
+		
+}
+
+.featured-img {
+	background-image: url(../img/featured-img.jpg);
+	background-position: center center;
+	background-size: cover;
+	background-color: #ddd;
+	width: 100%;
+	height: 420px;
+	position: relative;
+	border: 1px solid #fff;
+
+}
+.featured-content h4 {
+	margin-top: 10px;
+	color: #333;
+	font-size: 20px;
+	border-bottom: 1px dashed #6AAF08;
+	padding-bottom: 11px;
+}
+
+.featured-thumb::before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    content: "";
+    background: #6AAF08;
+    z-index: -1;
+    bottom: -8px;
+    right: -8px;
+}
+
+
+.featured-img:before {
+  position: absolute;
+  left: -10px;
+  bottom: -10px;
+  background: #6AAF08;
+  width: 95%;
+  height: 95%;
+  content: "";
+  z-index: -1;
+}
+.featured-img:after {
+  background: #000;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  content: "";
+  opacity: .6;
+}
+/*...............................................................................................................
+	CSS FOR SERVICES AREA END
+...............................................................................................................*/

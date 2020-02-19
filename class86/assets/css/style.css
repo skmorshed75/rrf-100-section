@@ -1,0 +1,163 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500,700|Tangerine:400,700');
+
+html, body, .full-height {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	color: #333;
+	line-height: 1.8;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+	line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 300;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	transition: .3s;
+	
+}
+
+a:hover {
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+/*Feature Area*/
+
+.section-padding {
+	padding: 100px 0;	
+}
+
+.story-bg1 {background-image: url(../img/project-bg2.jpg);}
+.story-bg2 {background-image: url(../img/project-bg3.jpg);}
+
+
+.story-bg {
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+.story-bg::before {
+    /*! top: -25px; */
+    left: -25px;
+    bottom: -25px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    content: "";
+    background-color: #eee;
+    z-index: -1;
+}
+.story-bg:after {
+    position: absolute;
+    right: 25%;
+    bottom: -50px;
+    width: 2px;
+    height: 100px;
+    background: #EAD197;
+    content: "";
+}
+.story-content {
+    padding-top: 50px;
+}
+.special-title {
+    color: #222;
+    font-weight: 700;
+    font-size: 60px;
+    background: #fff;
+    padding: 20px 30px;
+    margin-left: -200px;
+}
+body {
+    font-size: 15px;
+}
+.story-content p {
+    width: 95%;
+}
+.btn-plain {
+    margin-top: 50px;
+    display: inline-block;
+    color: #333;
+    font-weight: 700;
+    position: relative;
+}
+.btn-plain i {
+    padding-left: 30px;
+    opacity: 0;
+	transition: .3s;
+}
+.btn-plain:hover i {
+    opacity: 1;
+    padding-left: 5px;
+}
+.btn-plain:hover:after {
+    width: 82px;
+}
+
+.btn-plain:after {
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 3px;
+    width: 82px;
+    background: #F68B1D;
+    content: "";
+}
+
+
+.story-bg-wrap {
+    margin-bottom: 150px;
+}
+.story-bg-wrap {
+    margin-left: -100px;
+}
+.story-wrapper.content-right {
+}
+.content-right .story-bg-wrap {
+    margin-left: 0;
+    margin-right: -100px;
+    position: relative;
+}
+.content-right .story-bg:before {
+    left: 25px;
+}
+.content-right .special-title {
+    margin-left: 0;
+    margin-right: -200px;
+    position: relative;
+    padding-left: 0;
+    z-index: 9;
+}
+.content-right .story-content {
+    margin-left: 61px;
+}

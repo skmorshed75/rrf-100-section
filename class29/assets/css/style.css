@@ -1,0 +1,181 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #777;
+	font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 700;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+	outline: 0;
+	color: #7e8287;	
+}
+
+a:hover {
+	opacity: .7;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+
+/*...............................................................................................................
+	CSS FOR SECTION TITLE/HEADING, SECTION PADDING START
+...............................................................................................................*/
+
+.section-padding {
+	padding: 50px 0;
+}
+
+.section-title {	
+    padding: 0 0 40px 0;
+    color: #999999;
+    font-size: 17px;	
+}
+
+.section-title h2{
+	color: #242424;
+	font-size: 30px;
+}
+
+.image-title ul li {
+    display: inline-block;
+    padding-right: 20px;
+    font-size: 18px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.image-title ul li:hover, .image-title ul li.active  {
+    color: #2BE0E1;
+}
+
+.single-image {
+    height: 300px;
+	background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+.row.image-list .col-md-4:nth-child(2) .single-image, .image-list .col-md-4:nth-child(4) .single-image, .image-list .col-md-4:nth-child(6) .single-image {
+	height: 615px;
+}
+
+.image-bg1 {
+	background-image: url(../img/image-bg1.jpg);
+}
+.image-bg2 {
+	background-image: url(../img/image-bg2.jpg);
+}
+.image-bg3 {
+	background-image: url(../img/image-bg3.jpg);
+}
+.image-bg4 {
+	background-image: url(../img/image-bg4.jpg);
+}
+.image-bg5 {
+	background-image: url(../img/image-bg5.jpg);
+}
+.image-bg6 {
+	background-image: url(../img/image-bg6.jpg);
+}
+.image-bg7 {
+	background-image: url(../img/image-bg7.jpg);
+}
+.image-bg8 {
+	background-image: url(../img/image-bg8.jpg);
+}
+.image-bg9 {
+	background-image: url(../img/image-bg9.jpg);
+}
+
+.image-filter .row {
+    margin-right: -7.5px;
+    margin-left: -7.5px;
+}
+.image-filter .col-md-12, .image-list .col-md-4 {
+	padding-right: 7.5px;
+	padding-left: 7.5px;
+}
+
+.image-hover {
+	position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+	opacity: 0;
+	transition: .4s;
+}
+
+.single-image:hover .image-hover {
+    opacity: 1;
+}
+
+
+.image-hover:after {
+	top: 0;
+	left: 0;
+    content: '';
+	width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .4;
+    z-index: -1;
+	position: absolute;
+}
+
+.image-hover i.fa {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 23px;
+    color: #02C5BE;
+}
+
+.image-hover h4 {
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+	margin-bottom: 0;
+    bottom: 30px;
+    position: absolute;
+    left: 30px;
+}
+
+.image-hover h4 span a {
+    display: block;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 14px;
+    margin-top: 5px;
+    color: #00D9B9;
+}
+

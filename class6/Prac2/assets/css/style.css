@@ -1,0 +1,172 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #2B2B2B;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	color: #2B2B2B;
+
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+	outline: 0;
+}
+
+a:hover {
+	opacity: .7;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+
+/*...............................................................................................................
+	CSS FOR SECTION TITLE/HEADING, SECTION PADDING START
+...............................................................................................................*/
+
+.section-padding {
+	padding: 70px 0;	
+}
+
+h1, h2, h3, h4, h5 {
+    color: #242524;
+}
+
+body {
+    color: #B3B3B3;
+    font-size: 15px;
+}
+
+.section-title h3 {
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 10px;
+}
+
+.section-title h3 span {
+    color: #6DC391;
+}
+
+.section-title p {
+    font-size: 12px;
+    color: #333;
+}
+
+.section-title {
+    margin-bottom: 50px;
+}
+
+.single-pricing {
+    border: 1px solid #D6DDD9;
+    padding: 20px;
+    line-height: 2;
+	transition: .4s;
+}
+
+.single-pricing:hover {
+    border-color: #26A65B;
+	transform: scale(1.1)
+}
+
+.single-pricing h3 {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 20px;
+    opacity: .8;
+}
+
+.single-pricing i.fa {
+    color: #26A65B;
+    font-size: 70px;
+    padding: 10px 0;
+}
+
+ul.pricing-list {
+    text-align: left;
+}
+
+ul.pricing-list li {
+    position: relative;
+}
+ul.pricing-list li:before {
+    font-family: fontAwesome;
+	content: "\f00c";
+	color: #26A65B;
+}
+ul.pricing-list li.unselect:before {
+	content: "\f00d";
+	color: #F03F3F;
+}
+
+ul.pricing-list li {
+    left: 40px;
+}
+
+ul.pricing-list li:before {
+    left: -23px;
+    /* margin-left: -38px; */
+    position: absolute;
+    font-size: 12px;
+    top: 3px;
+}
+
+ul.pricing-list h4 {
+    font-size: 16px;
+}
+
+h4.service-price {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+a.btn-service {
+    color: #898A89;
+    font-size: 14px;
+    border: 1px solid;
+    border-color: #26A65B;
+    border-radius: 50px;
+    padding: 8px 25px;
+    margin-top: 11px;
+    display: inline-block;
+	transition: .4s;
+}
+
+.pricing-icon img {
+    max-width: 102px;
+}
+
+a.btn-service:hover {
+    background: #26A65B;
+    color: #fff;
+}
+/*...............................................................................................................
+	CSS FOR NEWS AREA START
+...............................................................................................................*/
+
+/*...............................................................................................................
+	CSS FOR NEWS AREA END
+...............................................................................................................*/

@@ -1,0 +1,199 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #AEAEAE;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+	outline: 0;
+	color: #7e8287;	
+}
+
+a:hover {
+	opacity: .7;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+
+/*...............................................................................................................
+	CSS FOR SECTION TITLE/HEADING, SECTION PADDING START
+...............................................................................................................*/
+
+.section-padding {
+	padding: 50px 0;
+}
+
+.section-title {	
+    padding: 0 0 80px 0;
+    color: #999999;
+    font-size: 17px;	
+}
+
+/*...............................................................................................................
+	CSS FOR SECTION TITLE/HEADING, SECTION PADDING END
+...............................................................................................................*/
+
+/*
+.quote-img {
+	background-image: url(../img/quote_img.png);
+	background-size: cover;
+	background-position: center top;
+}
+
+.quote-img {
+    height: 245px;
+    position: relative;
+    z-index: 2;
+}
+*/
+
+.quote-area {
+}
+
+.quote-wraper {
+    background-color: #19B5FE;
+    color: #fff;
+    /* position: relative; */
+    padding: 40px 100px;
+}
+
+.quote-wraper h5 {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    padding-bottom: 15px;
+    margin-bottom: 30px;
+}
+
+.quote-wraper h5:before {
+    position: absolute;
+    width: 100px;
+    content: "";
+    height: 1px;
+    background: #fff;
+    bottom: 0;
+    margin-left: -50px;
+    left: 50%;
+}
+
+.quote-wraper h5:after {
+    position: absolute;
+    width: 30xp;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    content: "";
+    left: 50%;
+    bottom: -4px;
+    margin-left: -5px;
+    background-color: #19B5FE;
+}
+
+input[type=text], input[type=email], textarea {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    border-bottom: 1px solid;
+    width: 100%;
+    padding: 10px 0;
+}
+
+input {
+}
+
+input[placeholder] {
+}
+
+form {
+}
+
+input {
+}
+
+::placeholder {
+    color: #fff;
+	opacity: .7;
+}
+
+textarea {
+    margin-top: 30px;
+}
+
+input[type="submit"] {
+    background-color: #FFFFFF;
+    margin: 0 auto;
+    display: block;
+    margin: 0 auto;
+    padding: 10px 25px;
+    border: 0;
+    border-radius: 10px;
+    color: #19B5FE;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #ddd;
+}
+
+.quote-area img {
+    width: auto;
+    /* text-align: center; */
+    margin: 0 auto;
+    display: inline-block;
+    display: block;
+}
+
+.quote-wraper {
+    margin-top: -84px;
+}
+
+input:focus, textarea:focus {
+    background-color: transparent;
+}
+
+input[type=text], input[type=email], textarea {
+    outline: none;
+}
+/*...............................................................................................................
+	CSS FOR NEWS AREA START
+...............................................................................................................*/
+
+/*...............................................................................................................
+	CSS FOR NEWS AREA END
+...............................................................................................................*/

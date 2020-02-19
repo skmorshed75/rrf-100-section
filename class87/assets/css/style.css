@@ -1,0 +1,156 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+@font-face {
+    font-family: 'Asiyah Script';
+    src: url('../fonts/AsiyahScript.eot');
+    src: url('../fonts/AsiyahScript.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/AsiyahScript.woff2') format('woff2'),
+        url('../fonts/AsiyahScript.woff') format('woff'),
+        url('../fonts/AsiyahScript.ttf') format('truetype'),
+        url('../fonts/AsiyahScript.svg#AsiyahScript') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+
+html, body, .full-height {
+	height: 100%;
+}
+
+body {
+	color: #333;
+	line-height: 1.8;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 19px;
+	line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 300;
+	font-family: 'Asiyah Script';
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+
+	
+}
+
+a {
+	transition: .3s;
+}
+
+img {
+	width: 100%;
+	height: 100%;
+}
+
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+/*Feature Area*/
+
+.section-padding {
+	padding: 0px 0;	
+}
+
+.slide-bg1 {background-image: url(../img/project-bg1.jpg);}
+.slide-bg2 {background-image: url(../img/project-bg2.jpg);}
+.slide-bg3 {background-image: url(../img/project-bg3.jpg);}
+
+
+.slider-area, .slider-area div {
+    height: 100%;
+}
+.single-slides {
+    height: 100%;
+    background-size: cover;
+    background-position: bottom;
+    background-color: #ddd;
+    display: table;
+    width: 100%;
+    z-index: 1;
+    position: relative;
+}
+.slider-list {
+/*    height: 100%;*/
+}
+.slide-table-cell {
+    color: #fff;
+    text-align: center;
+    font-size: 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.slide-table-cell h1 {
+    font-size: 150px;
+}
+.btn-square {
+    color: #fff;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 30px;
+    background-color: #D8085E;
+    padding: 10px 25px;
+    border-radius: 5px;
+	transition: .3s;
+}
+.btn-square:hover {
+    color: #D8085E;
+	background-color: #fff;
+}
+.single-slides:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    content: "";
+    opacity: .5;
+    z-index: -1;
+}
+
+.slider-list .single-slides .slide-table-cell, .slider-list .single-slides .slide-table-cell div {
+    height: auto;
+}
+
+.slider-list div.owl-controls, .slider-list div.owl-controls div {
+    height: auto;
+}
+
+.slider-list div.owl-nav div {
+    display: inline-block;
+    font-size: 40px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    top: calc(50% - 25px);
+    left: 50px;
+    position: absolute;
+    opacity: .4;
+    text-align: center;
+    transition: .3s;
+}
+
+
+.slider-area .slider-list .owl-nav .owl-next {
+    left: auto;
+    right: 50px;
+}
+.slider-area .slider-list .owl-nav div:hover {
+    opacity: 1;

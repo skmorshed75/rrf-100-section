@@ -1,0 +1,202 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,500,700');
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 15px;
+	color: #AEAEAE;
+	font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 300;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+	outline: 0;
+	color: #7e8287;	
+}
+
+a:hover {
+	opacity: .7;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+
+/*...............................................................................................................
+	CSS FOR SECTION TITLE/HEADING, SECTION PADDING START
+...............................................................................................................*/
+
+.section-padding {
+	padding: 50px 0;
+}
+
+.section-title {	
+    padding: 0 0 80px 0;
+    color: #999999;
+    font-size: 17px;	
+}
+
+.section-title:before {
+    width: 60px;
+    height: 2px;
+    background: #FF8F17;
+    position: absolute;
+    top: 55px;
+    left: calc(50% - 30px);
+    content: "";
+}
+
+.section-title:after {
+    position: absolute;
+    top: 55px;
+    width: 20px;
+    height: 2px;
+    background: #232323;
+    content: "";
+    left: calc(50% - 10px);
+}
+
+.section-title h2{
+	color: #242424;
+	font-size: 30px;
+	font-weight: 800;
+	margin-bottom: 40px;
+}
+
+/*...............................................................................................................
+	CSS FOR SECTION TITLE/HEADING, SECTION PADDING END
+...............................................................................................................*/
+
+
+/*...............................................................................................................
+	CSS FOR HEADER AREA START
+...............................................................................................................*/
+.header-top-area {
+    background-color: #218AE6;
+    color: #fff;
+    padding: 15px 0;
+    font-size: 14px;
+}
+
+
+.header-top-area i, a {
+  color: #fff;
+}
+
+.header-top-area i {
+  margin-left: 25px;
+}
+
+.header-top-area i.fa {
+  padding-right: 10px;
+}
+
+.logo {
+	padding: 27px 0;
+}
+
+.logo i {
+	color: #218AE6;
+	padding-right: 15px;
+	font-size: 25px;
+}
+
+.logo a {
+  color: #000;
+  font-size: 18px;
+  font-weight: 700;
+}
+.main-menu ul {
+  margin: 0;
+}
+.main-menu ul li {
+  display: inline-block;
+}
+.main-menu ul li a {
+  color: #333;
+  font-size: 15px;
+  display: block;
+  padding: 30px 0px 30px 25px;
+}
+.main-menu ul li a:hover {
+  color: #8FBAF1;
+}
+
+
+.homepage-slides {
+  background: #218AE6;
+  color: #fff;
+}
+.single-homepage-slide {
+	padding: 150px 0;
+}
+.single-homepage-slide h2 {
+	font-size: 60px;
+	font-weight: 100;
+	margin-bottom: 30px;
+}
+.single-homepage-slide p {
+  font-size: 16px;
+  font-weight: 300;
+}
+a.btn-services {
+  background: #F9CF25;
+  color: #000;
+  display: block;
+  width: 150px;
+  padding: 15px 28px;
+  border-radius: 5px;
+  margin-top: 30px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+
+.homepage-slides .owl-dots div {
+  display: inline-block;
+  background: #fff;
+  width:15px;
+  height: 15px;
+  border-radius: 50%;
+  margin: 0 2px;
+  
+}
+
+.homepage-slides .owl-dots {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	bottom: 15px;  
+}
+
+.homepage-slides .owl-dots div.active {
+  background: #F9CF25;
+}
+
+.homepage-slides .owl-dots div:hover {
+    opacity: .6;
+}

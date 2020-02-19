@@ -1,0 +1,244 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html, body, .full-height {
+	height: 100%;
+}
+
+body {
+	max-height: 100%;
+	background-color: #F5F6FA;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	color: #333;
+	font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 700;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+	outline: 0;
+	color: #7e8287;	
+}
+
+a:hover {
+	opacity: .7;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+.section-padding {
+	padding: 100px 0;
+}
+
+.header-area {
+    padding: 20px 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+	z-index: 5;
+}
+
+.header-area:before {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    top: 0;
+    opacity: .2;
+    z-index: -1;
+}
+
+.logo img {
+    max-width: 80px;
+    /* float: left; */
+    /* display: inline-block; */
+    position: absolute;
+    left: 0;
+    top: -7px;
+}
+
+.logo a {
+    font-size: 14px;
+    font-weight: 700;
+	color: #000;
+}
+
+.logo a span {
+    font-size: 70%;
+    font-weight: 300;
+    font-style: italic;
+    display: block;
+}
+
+.logo {
+    /* padding-left: 150px; */
+    position: relative;
+    padding-left: 90px;
+    padding-top: 18px;
+}
+
+p.contact-info {
+    font-size: 20px;
+    display: inline-block;
+    position: relative;
+}
+
+p.contact-info i.fa:before {
+    position: absolute;
+    left: 20px;
+    top: 8px;
+    font-size: 25px;
+}
+
+p.contact-info i.fa {
+        position: absolute;
+    left: 3px;
+}
+
+p.contact-info i {
+	font-size: 25px;
+}
+
+p.contact-info {
+    margin-left: 50px;
+	text-align: left;
+	margin: 8px 0;
+	padding-left: 60px;
+}
+
+p.contact-info a {
+    color: #333;
+    font-size: 21px;
+}
+
+.slide-bg1 {
+	background-image: url(../img/slide-bg1.jpg);
+}
+.slide-bg2 {
+	background-image: url(../img/slide-bg2.jpg);
+}
+.slide-bg3 {
+	background-image: url(../img/slide-bg3.jpg);
+}
+.slide-bg4 {
+	background-image: url(../img/slide-bg4.jpg);
+}
+
+.single-slide-item {
+    padding-top: 200px;
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+	padding-bottom: 50px;
+}
+
+.slide-text {
+	position: relative;
+    z-index: 1;
+    font-size: 22px;
+    line-height: 1.8;
+    padding-left: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 80px;
+    color: #333;	
+}
+
+.slide-text h1 {
+    margin-bottom: 40px;
+}
+.slide-text:before {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    content: "";
+    background-color: #fff;
+    opacity: .5;
+    z-index: -1;
+}
+
+a.btn-boxed {
+    color: #fff;
+    background-color: #F18000;
+    font-size: 18px;
+    padding: 10px 20px;
+    display: inline-block;
+	font-weight: 700;
+}
+
+.slide-text a.btn-boxed {
+    margin-top: 22px;
+}
+
+.homepage-slides .owl-nav div {
+    position: absolute;
+    color: #000;
+    font-size: 60px;
+    top: 50%;
+    left: 20px;
+    line-height: 60px;
+    margin-top: -20px;
+    transition: .7s;
+    opacity: 0;
+}
+
+.homepage-slides .owl-nav div.owl-next {
+    left: auto;
+    right: 20px;
+}
+
+.homepage-slides:hover .owl-nav div {
+    opacity: .6;
+}
+
+.homepage-slides .owl-dots div {
+    width: 20px;
+    height: 20px;
+    background: red;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 50%;
+	opacity: 0;
+	transition: .3s;
+}
+.homepage-slides:hover .owl-dots div {
+	opacity: 1;	
+}
+
+.homepage-slides .owl-dot.active {
+    background: #F18000;
+}
+
+.homepage-slides .owl-dots {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    left: 0;
+}

@@ -1,0 +1,245 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	box-sizing: border-box;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Playfair Display', serif;
+	font-size: 15px;
+	color: #626262;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Playfair Display', serif;
+	margin:0 auto 15px;
+	padding: 0;
+	color: #626262;
+
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+	outline: 0;
+}
+
+a:hover {
+	opacity: .7;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+
+
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+
+/*...............................................................................................................
+	CSS FOR SECTION TITLE/HEADING, SECTION PADDING START
+...............................................................................................................*/
+
+p.blog-meta {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.logo {
+    width: 125px;
+}
+
+.main-menu {
+    text-align: right;
+}
+
+.main-menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu li {
+    display: inline-block;
+}
+
+.main-menu li a {
+    display: block;
+    color: #626262;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding-left: 100px;
+    padding-top: 2px;
+}
+
+section.main-menu-area {
+    padding: 60px 0;
+}
+
+.blog-bg {
+    width: 100%;
+}
+
+p.blog-meta, p.blog-meta a {
+    color: #b4ad9e;
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+h2 {}
+
+.blog-content-area h2 {
+    color: #626262;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.blog-content-area p {
+    line-height: 24px;
+    font-size: 14px;
+}
+
+a.btn-read-more {
+    color: #b4ad9e;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: ubuntu, sans-serif;
+    margin-top: 40px;
+    display: inline-block;
+
+}
+.single-blog {
+    margin-top: 100px;
+}
+
+.blog-meta {margin-top: 30px;}
+
+.single-blog h2 {
+    margin-bottom: 30px;
+}
+
+.blog-left {
+    margin-right: 15px;
+}
+
+.blog-right {
+    margin-left: 15px;
+}
+
+section.news-letter-area {
+    background-color: #F0F0F0;
+    padding: 75px 0;
+	margin-top: 70px;
+}
+
+.news-letter-form h2 {
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+form input[type="email"] {
+    background-color: transparent;
+    border: 0;
+	width: 100%;
+	padding: 10px;
+}
+
+form button {
+    border: 0;
+    background: transparent;
+}
+
+form {
+    position: relative;
+}
+
+button {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 10px;
+	cursor: pointer;
+}
+
+
+.news-letter-form {
+	text-align: center
+}
+
+.news-letter-form form {
+    width: 330px;
+    margin: 0 auto;
+    text-align: left;
+	border-bottom: 1px solid #000;
+}
+
+
+
+
+input[type="email"]:focus {
+	outline: 0
+}
+
+section.load-more {
+    padding: 100px 0;
+}
+
+a.btn-load-more {
+    color: #626262;
+    font-size: 20px;
+    border: 1px solid;
+    padding: 10px 25px;
+}
+
+.footer-area {
+    background-color: #F0F0F0;
+    color: #000000;
+    font-size: 14px;
+}
+
+.footer-area a {
+    color: #000000;
+}
+
+.footer-left ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer-left li {
+    display: inline-block;
+}
+
+.footer-left a {
+    display: block;
+    padding-right: 20px;
+}
+
+.footer-right a {
+    padding-left: 12px;
+}
+
+.footer-right a {
+    color: #626262;
+    font-size: 21px;
+}
+
+.footer-left {
+    padding-top: 6px;
+}
+
+.footer-area {
+    padding: 30px 0;
+}

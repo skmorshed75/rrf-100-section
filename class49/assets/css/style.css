@@ -1,0 +1,87 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html, body, .full-height {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	color: #888888;
+	line-height: 1.8;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	color: #666666;
+	line-height: 1.8;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 700;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	transition: .3s;
+}
+
+a:hover {
+
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+
+li {
+}
+.tab-list li {
+    font-size: 24px;
+    display: inline-block;
+}
+.tab-list ul {
+    border-bottom: 2px solid #999;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.tab-list {
+    border-bottom: 2px solid #999;
+	margin-bottom: 50px;
+}
+.tab-list a {
+    display: block;
+    padding: 10px 20px;
+    color: #666666;
+}
+
+
+.tab-list .active a {
+    color: #FC1B4B;
+    position: relative;
+}
+.tab-list .active a:after {
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    content: "";
+    background: #FC437B;
+    z-index: 2;
+}

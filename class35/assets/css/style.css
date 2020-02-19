@@ -1,0 +1,131 @@
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET START
+...............................................................................................................*/
+
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+html, body, .full-height {
+	height: 100%;
+}
+
+body {
+	max-height: 100%;
+}
+
+body {
+	font-family: 'Roboto', sans-serif;
+	font-size: 17px;
+	color: #333;
+	font-weight: 300;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin:0 auto 15px;
+	padding: 0;
+	font-weight: 700;
+}
+
+a, a:hover, a:focus {
+	text-decoration: none;
+	border: none;
+	outline: 0;
+	color: #7e8287;	
+}
+
+a:hover {
+	opacity: .7;
+}
+
+img {
+	width: 100%;
+	height: auto;
+}
+/*...............................................................................................................
+	CSS FOR DEFAULT / RESET END
+...............................................................................................................*/
+
+.section-padding {
+	padding: 100px 0;
+}
+
+.bg1 {
+	background-image: url(../img/bg1.jpg);
+}
+.bg2 {
+	background-image: url(../img/bg2.jpg);
+}
+
+.absolute-area {
+    background: #222932;
+    color: #fff;
+    line-height: 1.8;
+	position: relative;
+	padding: 80px 0;
+}
+
+.content h3 {
+    text-transform: uppercase;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+a.btn-readmore {
+    color: #fff;
+    font-size: 14px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    padding: 10px 20px;
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.section-absolutebg {
+    background-size: cover;
+    background-position: center;
+    background-color: #ddd;
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;	
+    z-index: 1;	
+}
+
+.section-absolutebg:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    content: "";
+    background: #000;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+.bg-left .section-absolutebg {
+    right: auto;
+}
+
+.content {
+    position: relative;
+    padding-right: 80px;
+}
+
+.content:before {
+    position: absolute;
+    content: "";
+    left: -30px;
+    top: 0;
+    width: 1px;
+    height: 60px;
+    background: #ddd;
+}
+
+.bg-left .content {
+    margin-left: 100px;
+    padding-right: 0;
+}
